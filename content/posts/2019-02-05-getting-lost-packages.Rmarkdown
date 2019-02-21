@@ -1,0 +1,35 @@
+---
+title: Getting lost packages
+author: admin
+date: '2019-02-05'
+slug: getting-lost-packages
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+To use the functions in an add-on package you first need to install the package. Remember you only need install it once.
+
+During the writing of the book, and in early 2018 the normal method for installing the **ggfortify** add-on package didn’t work (we got the message `package ggfortify is not available (for R Version 3.2.4)`).
+
+This has not happened for some time, so hopefully you won't experience it. If you do...
+
+Many packages are now developed in an environment / web service called *GitHub*, and R has an interface for installing packages directly from *GitHub*. This is true for *ggfortify*. Here is how you can access the package that way:
+
+```{r eval=FALSE}
+install.packages("devtools")
+library(devtools)
+install_github('sinhrks/ggfortify')
+```
+
+Another option: if the packages was once on CRAN, and archived, older version may still be available. Probably you can find this by googling ggfortify cran and following links to a rather unfriendly looking web page that lists a few files, one of which was, at the time of writing this, gfortify\_0.1.0.tar.gz. Download this to your computer, making sure you know which folder it gets downloaded into. Then, in Rstudio, Click the Install button in the Packages (as usual when you want to install a package). However, instead of Installing from: Repository CRAN choose Install from: Package Archive File (.tgz, .tar.gz). Then you need to click Browse and find the file you just downloaded. Then click Install. Hopefully it will still work with the version of R you have installed.
+
+Another option is to do it the old fashioned way. E.g. instead of using the autoplot() function from the ggfortify package, do this:
+
+```{r eval=FALSE}
+par(mfrow(2,2))
+plot(model, add.smooth = FALSE)
+```
+

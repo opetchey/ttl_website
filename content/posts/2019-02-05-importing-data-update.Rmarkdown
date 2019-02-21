@@ -1,0 +1,28 @@
+---
+title: Importing data update
+author: admin
+date: '2019-02-05'
+slug: importing-data-update
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+
+As the Second Edition of *Getting Started with R* was going to press, Rstudio changed the function it uses to import data in the **Import Dataset** tool, from the base function `read.csv()` to the `read_csv()` function in the **readr** package. Since then, the **Import Dataset** button gives a menu with an option to use either ("base" uses `read.csv` and "readr" uses `read_csv`) From the Rstudio Blog about the **readr** package:
+
+Compared to base equivalents like `read.csv`, readr is much faster and gives more convenient output: it never converts strings to factors, can parse date/times, and it doesn’t munge the column names.
+
+Great! If you have dates and times in a column, its possible that `read_csv` will see this and then correctly format them as dates. So you wouldn’t need to do this yourself (covered in Appendix of Chapter 2 of the Second Edition).
+
+Something else you might notice is that the data appears different if you look at it in the Console. This is because `read_csv` brings the data in as a special type of object called a *tibble*. (The standard `read.csv` function bring the data in as a standard data.frame.) You can read all about tibbles on the RStudio blog. Why are they better than data.frames? First, they only show the first ten lines and as many variables as will comfortably fit when you look at them in the Console, and the type of variable is given, and the number of additional rows and variables not displayed. E.g.:
+
+```{r}
+library(readr)
+dd <- read_csv(readr_example("mtcars.csv"))
+dd
+```
+
+In summary, everything in the Second Edition will work just fine, but what you see in the Console might look a little different at times.

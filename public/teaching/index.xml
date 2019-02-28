@@ -1,46 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview on TheTrophicLink</title>
+    <title>Teaching on TheTrophicLink</title>
     <link>/teaching/</link>
-    <description>Recent content in Overview on TheTrophicLink</description>
+    <description>Recent content in Teaching on TheTrophicLink</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Datasets</title>
-      <link>/teaching/datasets/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/teaching/datasets/</guid>
-      <description>Datasets used in Getting Started with R, Second Edition All the datasets (and more) one zip file.
-We don&amp;rsquo;t any longer distribute datasets for the first edition of Getting Started with R.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with R, Second Edition</title>
-      <link>/teaching/gswr2/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/teaching/gswr2/</guid>
-      <description>We are pleased to announce the second edition of Getting Started with R Paperback at OUP, Amazon UK, Amazon.com, Amazon.de, Buch.ch
-Electric version at Oxford Scholarship Online.
-We got great feedback about our book &amp;ldquo;Getting Started with R, An Introduction for Biologists&amp;rdquo;, but realised over the last couple of years that we were using and teaching R very differently from what we wrote about back in 2010. So we have almost completely rewritten for a very different and new Second Edition.</description>
-    </item>
-    
-    <item>
-      <title>Miscellany</title>
-      <link>/teaching/miscellany/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/teaching/miscellany/</guid>
-      <description>Lost packages Here is a post Lost Packages about what to do if, when attempting to install a package you get a message like package ggfortify is not available (for R Version 3.2.4).
-Importing data update If you&amp;rsquo;re having a brain melt figuring out the difference between read_csv and read.csv and their use in the RStudio Import Dataset tool, look at this post about using the readr package and read_csv function to import data.</description>
-    </item>
     
   </channel>
 </rss>

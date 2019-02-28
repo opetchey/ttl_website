@@ -15,3 +15,7 @@ list_format = 3
 image = ""
 caption = ""
 +++
+
+[Owen on google scholar.](https://scholar.google.com/citations?user=lDoG41MAAAAJ)
+
+[Owen on ORCID.](https://orcid.org/0000-0002-7724-1633)

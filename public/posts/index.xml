@@ -11,25 +11,5 @@
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Getting lost packages</title>
-      <link>/posts/getting-lost-packages/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/getting-lost-packages/</guid>
-      <description>To use the functions in an add-on package you first need to install the package. Remember you only need install it once.
-During the writing of the book, and in early 2018 the normal method for installing the ggfortify add-on package didn’t work (we got the message package ggfortify is not available (for R Version 3.2.4)).
-This has not happened for some time, so hopefully you won&amp;rsquo;t experience it. If you do&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Importing data update</title>
-      <link>/posts/importing-data-update/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/importing-data-update/</guid>
-      <description>As the Second Edition of Getting Started with R was going to press, Rstudio changed the function it uses to import data in the Import Dataset tool, from the base function read.csv() to the read_csv() function in the readr package. Since then, the Import Dataset button gives a menu with an option to use either (&amp;ldquo;base&amp;rdquo; uses read.csv and &amp;ldquo;readr&amp;rdquo; uses read_csv) From the Rstudio Blog about the readr package:</description>
-    </item>
-    
   </channel>
 </rss>

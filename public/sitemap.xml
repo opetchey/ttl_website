@@ -4,6 +4,22 @@
     
     <url>
     
+      <loc>/posts/all-the-old-posts/</loc>
+      <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/posts/making-an-effective-enquiry/</loc>
+      <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/research/</loc>
       <lastmod>2018-09-09T00:00:00+02:00</lastmod>
     </url>
@@ -54,6 +70,42 @@
     
       <loc>/publications/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/author/andrew/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/author/dylan/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/author/natalie/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/author/</loc>
+      <priority>0</priority>
     </url>
     
   

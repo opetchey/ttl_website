@@ -11,5 +11,25 @@
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>All the old posts</title>
+      <link>/posts/all-the-old-posts/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/all-the-old-posts/</guid>
+      <description>Owen couldn&amp;rsquo;t figure out how to easily and quickly move posts from the old wordpress site to this one. Here they all are as pdfs of the wordpress posts.
+ About fairness in the workplace. About p-values. Back garden camera trap. Global net change in local plant biodiversity. Graduation day! Group retreat 2016. How to read ANCOVA summary tables in R. IEU Photo-Exhibition. Interesting papers 1. Interesting papers 2. Interesting papers 3.</description>
+    </item>
+    
+    <item>
+      <title>Making an effective enquiry</title>
+      <link>/posts/making-an-effective-enquiry/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/making-an-effective-enquiry/</guid>
+      <description>Whether you are enquiring about available positions (and perhaps funding) or have a funding scheme that you would like to apply for (to be held in Owen’s group), there are a few things you can do to make it more likely that you get a useful response from Owen, or any other potential supporter.
+ Include your CV with your enquiry, including names of any previous supervisors. Include a short statement of research interests and motivation, highlighting any outstanding acheivements.</description>
+    </item>
+    
   </channel>
 </rss>

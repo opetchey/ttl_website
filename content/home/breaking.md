@@ -26,6 +26,7 @@ Other web pages of note, that the group is associated with:
 
 * [Global Change and Biodiversity, University of Zurich Priority Research Programme](https://www.gcb.uzh.ch/en.html)
 * [Experimental Microbial Ecology Hub](http://emeh.info/), and [protocols](https://emeh-protocols.readthedocs.io/en/latest/)
-* [Various github projects](https://github.com/opetchey)
+* [Reproducible Research in Ecology, Evolution, Behaviour, and Environmental Studies](http://opetchey.github.io/RREEBES/)
+[Various github projects](https://github.com/opetchey)
 * [BEMOVI (behaviour and morphology from movies](http://bemovi.info/)
 * [R4All](http://r4all.org/), including the book [*Getting Started with R*](http://r4all.org/books/gswr2/)

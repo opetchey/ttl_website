@@ -30,3 +30,4 @@ Other web pages of note, that the group is associated with:
 [Various github projects](https://github.com/opetchey)
 * [BEMOVI (behaviour and morphology from movies](http://bemovi.info/)
 * [R4All](http://r4all.org/), including the book [*Getting Started with R*](http://r4all.org/books/gswr2/)
+* A shiny app with which to play with our [food web model](https://owenpetchey.shinyapps.io/ADBM_shiny/).

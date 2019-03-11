@@ -113,8 +113,13 @@ PhD Student & Postdoc
 Marco Plebani
 PhD Student
 
-Aurélie Garnier
-PhD Student
+**Aurélie Garnier**
+PhD Student, 2014-2018
+2019: Postdoctoral Research in Hamburg on spatio-temporal dynamics of the food webs in the Baltic Sea.
+
+**Susanne Schulmeister**
+Global Change and Biodiversity MOOC Co-creator and Producer, 2016-2018
+2019: E-Learning support for the Pädagogische Hochschule Thurgau (PHTG), Kreuzlingen.
 
 Severin Roffler
 Technical Assistant

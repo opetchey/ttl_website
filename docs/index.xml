@@ -10,6 +10,54 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A tool for valuing contributions in teams</title>
+      <link>/posts/valuing-contributions-in-teams/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/valuing-contributions-in-teams/</guid>
+      <description>
+
+&lt;p&gt;Working in teams can be some of the most stimulating, exciting, and important experiences we have. At other times things can get a bit sticky, for example when it comes to attributing rewards (e.g. deciding authorship and authorship order of publications arising). Hence proactive planning and assessing the contributions of members of our teams can be useful. In order to assist with this, a collaboration agreement is a very good idea. Also, teams may find useful this new tool for planning and assessing contributions in teams.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://owenpetchey.shinyapps.io/valuing_contributions_in_teams/&#34;&gt;web application valuing contributions in teams&lt;/a&gt; summarises the contributions that a team can report in the associated &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1hfpQblHZeAKTDYqYSvOw2E6eQ__Vp-n_NsOjcosfG5Y&#34;&gt;googlesheet Valuing contributions in teams&lt;/a&gt;. Below is a bit more detail about the problems and solutions being addressed.&lt;/p&gt;
+
+&lt;h3 id=&#34;in-the-googlesheet-you&#34;&gt;In the googlesheet you:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Specifiy project details that should be decided in collaboration with project members.&lt;/li&gt;
+&lt;li&gt;Enter the project name and the threshold contribution for authorship (or other reward scheme) in the project information sheet.&lt;/li&gt;
+&lt;li&gt;Enter your team members into the sheet with that name.&lt;/li&gt;
+&lt;li&gt;Decide on your contribution types and weights and enter information into the sheet of that name.&lt;/li&gt;
+&lt;li&gt;Decide planned activities and enter the information into the sheet with that name&lt;/li&gt;
+&lt;li&gt;During the project enter realised contributions in the sheet with that name.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;problems-and-solutions-in-teams&#34;&gt;Problems and solutions in teams&lt;/h3&gt;
+
+&lt;p&gt;There are a number of challenges in team projects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Authorship order is not sufficient to indicate and summarise what in reality are nuanced/continuous/diverse types of contributions.&lt;/li&gt;
+&lt;li&gt;Lack of transparency in team members efforts, which can lead to &lt;a href=&#34;https://www.thecut.com/2017/04/what-to-do-when-you-feel-like-the-only-roommate-who-cleans.html&#34;&gt;overestimation of our contribution and underestimate of others&amp;rsquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Changes in contribution through course of a project.&lt;/li&gt;
+&lt;li&gt;Actual and intended contributions can deviate.&lt;/li&gt;
+&lt;li&gt;Value from synergies challenging to account for.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Solutions for some of the problems above:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use Contributor Roles Taxonomy (CRediT Term) with degree of contribution (lead, equal, supporting); report this in publications.&lt;/li&gt;
+&lt;li&gt;Team accessible list of contributions.&lt;/li&gt;
+&lt;li&gt;Tracked evolution of contributions, from intended to actual / final.&lt;/li&gt;
+&lt;li&gt;Transparent and flexible method for translating actual / final contributions into authorship order.&lt;/li&gt;
+&lt;li&gt;Contributor responsibility for recording their own contributions(?).&lt;/li&gt;
+&lt;li&gt;Project leader responsibility to ensure self-responsibility of contributors is understood, remembered and acted upon (e.g. develop research culture including these solutions; issue reminders).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An academic in business school, and being a better dad</title>
       <link>/posts/an-academic-in-business-school-and-being-a-better-dad/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>

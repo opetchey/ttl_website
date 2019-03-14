@@ -10,6 +10,195 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Demonstrating added-value of integrative research</title>
+      <link>/posts/demonstrating-added-value-of-integrative-research/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/demonstrating-added-value-of-integrative-research/</guid>
+      <description>
+
+&lt;p&gt;Do you think that &lt;em&gt;integrative&lt;/em&gt; research has &lt;em&gt;added-value&lt;/em&gt;? Is it more than the sum of its parts? How can we show how integrative is a body of research, and investigate if it has added-value?&lt;/p&gt;
+
+&lt;p&gt;These are difficult questions that we don&amp;rsquo;t have all the answers to. Here we give a few possibilities based on the corpus of publications produced by a research programme aimed at creating added-value via promoting integrative research. We visualise characteristics of that corpus of publications, and compare to a reference corpus of publications arising from research that may or may not have included integrative research. (And the gory details of how we did this are provided below.)&lt;/p&gt;
+
+&lt;p&gt;The example below involves the corpus of publications arising from the &lt;a href=&#34;https://www.gcb.uzh.ch/en.html&#34;&gt;University or Zurich Research Priority Programme in Global Change and Biodiversity (URPP GCB)&lt;/a&gt;. The reference corpus is from related research fields for similar time period at University of Zurich (exact specification in the gory details section).&lt;/p&gt;
+
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/coauthor_network.jpeg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;The network of co-authors in the URPP GCB corpus.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Figure 1 shows the tightly connected co-authorship network of 20 of the researchers in the URPP GCB. It shows that in terms of collaboration there is a great deal of integration. The number of co-authors in the URPP GCB corpus is about 20% greater than in the reference, though only by about one author on average (Figure 2). The number of times articles were cited is about 30% greater in the URPP GCB corpus than in the reference (Figure 2).&lt;/p&gt;
+
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/corpus_comparison.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Comparison of number of authors per article and number of times articles are cited between in the reference corpus and the focal (URPP GCB) corpus. (Mean plus/minus one standard error.)&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;the-gory-details&#34;&gt;The gory details&amp;hellip;&lt;/h1&gt;
+
+&lt;p&gt;Warning! &amp;mdash; what you see below is a bit technical, not all explained in great detail, and you need to know how to use R / RStudio and various add on packages.&lt;/p&gt;
+
+&lt;p&gt;The code and datasets used below are available in this &lt;a href=&#34;https://github.com/opetchey/dumping_ground/tree/master/corpus_comparison&#34;&gt;github folder&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;assemble-your-focal-corpus&#34;&gt;Assemble your focal corpus&lt;/h2&gt;
+
+&lt;p&gt;We manually entered all publications produced by the &lt;a href=&#34;https://www.gcb.uzh.ch/en.html&#34;&gt;URPP GCB&lt;/a&gt; into &lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt;. (Actually, we used the lovely &lt;em&gt;Add items by identifier&lt;/em&gt; Zotero button, and added by DOI.)&lt;/p&gt;
+
+&lt;h2 id=&#34;get-information-about-your-corpus-from-wos&#34;&gt;Get information about your corpus from WoS&lt;/h2&gt;
+
+&lt;p&gt;We will get information from WoS on the specific papers in our corpus by searching WoS for the DOIs of the articles in the corpus. To do this, we want to get text, which we&amp;rsquo;ll paste into the WoS search term field, of the following nature :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;02/ECY.2003 OR 16/J.ECOCOM.2016.12.005 OR 16/J.RSE.2014.11.014 OR 02/ECY.1748 OR 16/J.COSUST.2018.04.016 OR 02/ECE3.1186 OR 93/FEMSEC/FIV066 OR 11/ELE.12443&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To get this text:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## install the following if required
+library(bibliometrix)
+library(tidyverse)
+library(circlize)
+library(wordcloud2)
+library(cowplot)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Highlight the papers in Zotero that are your corpus.&lt;/li&gt;
+&lt;li&gt;Use the File -&amp;gt; Export Library&amp;hellip; tool in Zotero, choose BibTex format, leave all boxes unchecked, leave Character encoding as Unicode (UTF-8), click OK, and choose the location and filename. We named the file &lt;code&gt;from_zotero.bib&lt;/code&gt; and saved it to our Desktop (referred to on a Mac by &lt;code&gt;~/Desktop/&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Use the following code in R to get a new file that contains the text, mentioned above, that we will paste into the WoS search:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;readFiles(&amp;quot;~/Desktop/from_zotero.bib&amp;quot;) %&amp;gt;%
+  isibib2df() %&amp;gt;%
+  dplyr::mutate(DOI=stringr::str_trim(DI)) %&amp;gt;%
+  filter(!is.na(DOI)) %&amp;gt;%
+  pull(DOI) %&amp;gt;%
+  paste(collapse=&amp;quot; OR &amp;quot;) %&amp;gt;%
+  cat(file=&amp;quot;~/Desktop/dois_for_WoS.txt&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open the file (we named it &lt;code&gt;dois_for_WoS.txt&lt;/code&gt; and saved it to our Desktop) with the DOI text we need to paste into the Wos search field. Copy the text, and paste it into the search term window of &lt;a href=&#34;www.isiknowledge.com&#34;&gt;WoS Basic Search&lt;/a&gt;. Select &lt;code&gt;DOI&lt;/code&gt; as the item being searched for. Hit the Search button.&lt;/li&gt;
+&lt;li&gt;You may get fewer results from WoS than DOIs you entered. At time of writing this article we had 164 DOIs, or which WoS found 138. We didn&amp;rsquo;t look in great detail at which were not found and why they were not.&lt;/li&gt;
+&lt;li&gt;Get data out of WoS by using the &lt;em&gt;Save to Other File Formats&lt;/em&gt; option. Specify the numbers of the records (we chose 1 through 138, i.e. all of them) (If you have lots, you may have to do this multiple times, as WoS has a limit of 500 records it will save in one go.). Select Record Content to be &lt;em&gt;Full Record and Cited References&lt;/em&gt;, and File Format to be BibTex. Click Send and you should soon get a file &lt;code&gt;savedrecs.bib&lt;/code&gt; (it should appear in the folder where you downloads usually go). Rename the downloaded file to something meaningful, e.g. we named ours to &lt;code&gt;focal_corpus_from_WoS.bib&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;get-information-about-the-reference-corpus&#34;&gt;Get information about the reference corpus&lt;/h2&gt;
+
+&lt;p&gt;We got the reference corpus from WoS using the following search terms:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ORGANIZATION-ENHANCED: (University of Zurich)&lt;/li&gt;
+&lt;li&gt;WEB OF SCIENCE CATEGORIES: ( ENVIRONMENTAL SCIENCES OR REMOTE SENSING OR ECOLOGY OR PLANT SCIENCES OR GEOGRAPHY PHYSICAL OR ENVIRONMENTAL STUDIES )&lt;/li&gt;
+&lt;li&gt;Timespan: 2013-2018.&lt;/li&gt;
+&lt;li&gt;Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This search returned over 2&amp;rsquo;000 papers that we saved the information from WoS about using the same approach as in step 6 in the previous section. We got five files of records for this reference corpus due to the 500 record save limit of WoS.&lt;/p&gt;
+
+&lt;h2 id=&#34;load-everything-into-r&#34;&gt;Load everything into R!&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;focal_corpus &amp;lt;- readFiles(&amp;quot;~/Desktop/focal_corpus_from_WoS.bib&amp;quot;) %&amp;gt;%
+  isibib2df() %&amp;gt;%
+  mutate(TC=as.numeric(TC),
+         Corpus=&amp;quot;URPPGCB&amp;quot;,
+         AUx=gsub(&amp;quot;;&amp;quot;,&amp;quot;&amp;quot;,AU),
+         num_authors=nchar(AU) - nchar(AUx))
+D1 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus1.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+D2 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus2.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+D3 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus2.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+D4 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus2.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+D5 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus2.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+reference_corpus &amp;lt;- rbind(D1, D2, D3, D4, D5) %&amp;gt;%
+  mutate(TC=as.numeric(TC),
+         Corpus=&amp;quot;Reference&amp;quot;,
+         AUx=gsub(&amp;quot;;&amp;quot;,&amp;quot;&amp;quot;,AU),
+         num_authors=nchar(AU) - nchar(AUx))
+rm(D1, D2, D3, D4, D5)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;make-a-co-authorship-network-reference-corpus-only&#34;&gt;Make a co-authorship network (reference corpus only)&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;focal_corpus_biban &amp;lt;- biblioAnalysis(focal_corpus)
+NetMatrix &amp;lt;- biblioNetwork(focal_corpus, analysis = &amp;quot;collaboration&amp;quot;,  network = &amp;quot;authors&amp;quot;, sep = &amp;quot;;&amp;quot;)
+MM &amp;lt;- as(NetMatrix, &amp;quot;matrix&amp;quot;)
+MM &amp;lt;- MM[order(rownames(MM)), order(colnames(MM))]
+diag(MM) &amp;lt;- 0
+top_authors &amp;lt;- focal_corpus_biban$Authors[1:20]
+these_cols &amp;lt;- colnames(MM) %in% names(top_authors)
+these_rows &amp;lt;- rownames(MM) %in% names(top_authors)
+top_MM &amp;lt;- MM[these_rows,these_cols]
+set.seed(999)
+chordDiagram(top_MM, symmetric = TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;combine-and-compare-the-focal-and-reference-corpus&#34;&gt;Combine and compare the focal and reference corpus&lt;/h2&gt;
+
+&lt;p&gt;First combine into one object the data about the two corpi:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;reference_corpus &amp;lt;- select(reference_corpus, intersect(names(reference_corpus), names(focal_corpus)))
+focal_corpus &amp;lt;- select(focal_corpus, intersect(names(reference_corpus), names(focal_corpus)))
+corpus &amp;lt;- rbind(focal_corpus, reference_corpus)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Get summary statistics about some characteristics of the articles, and graph them for comparison:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summ_stats &amp;lt;- group_by(corpus, Corpus) %&amp;gt;%
+  summarise(mean_cites=mean(TC),
+            sem_cites=sd(TC)/sqrt(n()),
+            mean_num_authors=mean(num_authors),
+            sem_num_authors=sd(num_authors)/sqrt(n()))
+p1 &amp;lt;- ggplot(summ_stats) +
+  geom_point(mapping=aes(x=Corpus, y=mean_cites)) +
+  geom_errorbar(mapping=aes(x=Corpus,
+                            ymin=mean_cites-sem_cites,
+                            ymax=mean_cites+sem_cites),
+                width=0.1) +
+  ylab(&amp;quot;Number of times cited&amp;quot;) 
+p2 &amp;lt;- ggplot(summ_stats) +
+  geom_point(mapping=aes(x=Corpus, y=mean_num_authors)) +
+  geom_errorbar(mapping=aes(x=Corpus,
+                            ymin=mean_num_authors-sem_num_authors,
+                            ymax=mean_num_authors+sem_num_authors),
+                width=0.1) +
+  ylab(&amp;quot;Number of authors&amp;quot;) 
+p0 &amp;lt;- plot_grid(p2, p1)
+ggsave(filename=&amp;quot;~/Desktop/corpus_comparison.jpg&amp;quot;, plot=p0, width = 6, height = 4)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A tool for valuing contributions in teams</title>
       <link>/posts/valuing-contributions-in-teams/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>

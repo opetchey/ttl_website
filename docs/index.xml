@@ -135,7 +135,7 @@ A customer-provider relationship is not easily compatible with a good teach/ment
 &lt;h2 id=&#34;example-1&#34;&gt;Example 1&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Get the &lt;a href=&#34;https://github.com/opetchey/ttl-resources/tree/master/functional_diversity&#34;&gt;code and example datasets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Get the &lt;a href=&#34;https://github.com/opetchey/dumping_ground/tree/master/functional_diversity&#34;&gt;code and example datasets&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Gain an understanding of how to use R.&lt;/li&gt;
 &lt;li&gt;Use the &lt;code&gt;dist&lt;/code&gt; and &lt;code&gt;hclust&lt;/code&gt; functions to calculate a dendrogram from a trait matrix. Paste the &lt;code&gt;Xtree&lt;/code&gt; function into R. Use it to transform the object returned by &lt;code&gt;hclust&lt;/code&gt; into an object from which total branch is easy to calculate.&lt;/li&gt;
 &lt;li&gt;The object returned by &lt;code&gt;Xtree&lt;/code&gt; is a list containing a species by branch matrix (H1) and a branch length vector (h2) (see &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
@@ -171,9 +171,9 @@ A customer-provider relationship is not easily compatible with a good teach/ment
       <guid>/posts/food-web-tools/</guid>
       <description>
 
-&lt;p&gt;Here you can get code to model and analyse food webs.&lt;/p&gt;
+&lt;p&gt;Here you can get code to model and analyse the random, cascade, and niche food web models.&lt;/p&gt;
 
-&lt;p&gt;Download the code and example data files (and not the &lt;code&gt;ADBM_shiny&lt;/code&gt; folder) for all of the above from &lt;a href=&#34;https://github.com/opetchey/ttl-resources/tree/master/food_web&#34;&gt;this folder on github&lt;/a&gt;. None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.&lt;/p&gt;
+&lt;p&gt;Download the code and example data files (and not the &lt;code&gt;ADBM_shiny&lt;/code&gt; folder) for all of the above from &lt;a href=&#34;https://github.com/opetchey/dumping_ground/tree/master/random_cascade_niche&#34;&gt;this folder on github&lt;/a&gt;. None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.&lt;/p&gt;
 
 &lt;p&gt;All the code is written for R. We really can&amp;rsquo;t recommend it highly enough. Virtually every type of ecological analysis is already available in the main distribution of R and/or the extra packages). R&amp;rsquo;s default graphics are of publication quality (and easily edited). Its free, will run on virtually any platform (e.g., Windows, Linux, Macs), and seems to be significantly faster than many other languages/environments. The only apparent down side is the steep learning curve. However, little steps easily tackle steep slopes; the effort will be rewarded. None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.&lt;/p&gt;
 

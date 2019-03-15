@@ -10,9 +10,9 @@ image:
   focal_point: ''
 ---
 
-Here you can get code to model and analyse food webs.
+Here you can get code to model and analyse the random, cascade, and niche food web models.
 
-Download the code and example data files (and not the `ADBM_shiny` folder) for all of the above from [this folder on github](https://github.com/opetchey/ttl-resources/tree/master/food_web). None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.
+Download the code and example data files (and not the `ADBM_shiny` folder) for all of the above from [this folder on github](https://github.com/opetchey/dumping_ground/tree/master/random_cascade_niche). None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.
 
 All the code is written for R. We really can't recommend it highly enough. Virtually every type of ecological analysis is already available in the main distribution of R and/or the extra packages). R's default graphics are of publication quality (and easily edited). Its free, will run on virtually any platform (e.g., Windows, Linux, Macs), and seems to be significantly faster than many other languages/environments. The only apparent down side is the steep learning curve. However, little steps easily tackle steep slopes; the effort will be rewarded. None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.
 

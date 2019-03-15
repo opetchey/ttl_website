@@ -16,7 +16,7 @@ Below is advice for using some code and functions in R that use the same matrix 
 
 ## Example 1
 
-* Get the [code and example datasets](https://github.com/opetchey/ttl-resources/tree/master/functional_diversity).
+* Get the [code and example datasets](https://github.com/opetchey/dumping_ground/tree/master/functional_diversity).
 * Gain an understanding of how to use R.
 * Use the `dist` and `hclust` functions to calculate a dendrogram from a trait matrix. Paste the `Xtree` function into R. Use it to transform the object returned by `hclust` into an object from which total branch is easy to calculate.
 * The object returned by `Xtree` is a list containing a species by branch matrix (H1) and a branch length vector (h2) (see [here](http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract).

@@ -12,16 +12,6 @@
     
     
     <item>
-      <title>Demonstrating added-value of integrative research</title>
-      <link>/posts/demonstrating-added-value-of-integrative-research/</link>
-      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/demonstrating-added-value-of-integrative-research/</guid>
-      <description>Do you think that integrative research has added-value? Is it more than the sum of its parts? How can we show how integrative is a body of research, and investigate if it has added-value?
-These are difficult questions that we don&amp;rsquo;t have all the answers to. Here we give a few possibilities based on the corpus of publications produced by a research programme aimed at creating added-value via promoting integrative research.</description>
-    </item>
-    
-    <item>
       <title>A tool for valuing contributions in teams</title>
       <link>/posts/valuing-contributions-in-teams/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
@@ -67,9 +57,9 @@ Example 1  Get the code and example datasets.</description>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/food-web-tools/</guid>
-      <description>Here you can get code to model and analyse food webs.
+      <description>Here you can get code to model and analyse the random, cascade, and niche food web models.
 Download the code and example data files (and not the ADBM_shiny folder) for all of the above from this folder on github. None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.
-All the code is written for R. We really can&amp;rsquo;t recommend it highly enough.</description>
+All the code is written for R.</description>
     </item>
     
     <item>

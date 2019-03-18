@@ -14,7 +14,7 @@ Do you think that *integrative* research has *added-value*? Is it more than the 
 
 These are difficult questions that we don't have all the answers to. Here we give a few possibilities based on the corpus of publications produced by a research programme aimed at creating added-value via promoting integrative research. We visualise characteristics of that corpus of publications, and compare to a reference corpus of publications arising from research that may or may not have included integrative research. (And the gory details of how we did this are provided below.)
 
-The example below involves the corpus of publications arising from the [University or Zurich Research Priority Programme in Global Change and Biodiversity (URPP GCB)](https://www.gcb.uzh.ch/en.html). The reference corpus is from related research fields for similar time period at University of Zurich (exact specification in the gory details section).
+The example below involves the corpus of publications arising from the [University of Zurich Research Priority Programme in Global Change and Biodiversity (URPP GCB)](https://www.gcb.uzh.ch/en.html). The reference corpus is from related research fields for similar time period at University of Zurich (exact specification in the gory details section).
 
 {{< figure library="1" src="coauthor_network.jpeg" title="The network of co-authors in the URPP GCB corpus." numbered="true" >}}
 
@@ -41,7 +41,8 @@ We will get information from WoS on the specific papers in our corpus by searchi
 
 To get this text:
 
-```{r eval=FALSE}
+
+```r
 ## install the following if required
 library(bibliometrix)
 library(tidyverse)
@@ -54,7 +55,8 @@ library(cowplot)
 1. Highlight the papers in Zotero that are your corpus.
 2. Use the File -> Export Library... tool in Zotero, choose BibTex format, leave all boxes unchecked, leave Character encoding as Unicode (UTF-8), click OK, and choose the location and filename. We named the file `from_zotero.bib` and saved it to our Desktop (referred to on a Mac by `~/Desktop/`).
 3. Use the following code in R to get a new file that contains the text, mentioned above, that we will paste into the WoS search:
-```{r eval=FALSE}
+
+```r
 readFiles("~/Desktop/from_zotero.bib") %>%
   isibib2df() %>%
   dplyr::mutate(DOI=stringr::str_trim(DI)) %>%
@@ -80,7 +82,8 @@ This search returned over 2'000 papers that we saved the information from WoS ab
 
 ## Load everything into R!
 
-```{r eval=FALSE}
+
+```r
 focal_corpus <- readFiles("~/Desktop/focal_corpus_from_WoS.bib") %>%
   isibib2df() %>%
   mutate(TC=as.numeric(TC),
@@ -107,7 +110,8 @@ rm(D1, D2, D3, D4, D5)
 
 ## Make a co-authorship network (reference corpus only)
 
-```{r eval=FALSE}
+
+```r
 focal_corpus_biban <- biblioAnalysis(focal_corpus)
 NetMatrix <- biblioNetwork(focal_corpus, analysis = "collaboration",  network = "authors", sep = ";")
 MM <- as(NetMatrix, "matrix")
@@ -125,7 +129,8 @@ chordDiagram(top_MM, symmetric = TRUE)
 
 First combine into one object the data about the two corpi:
 
-```{r eval=FALSE}
+
+```r
 reference_corpus <- select(reference_corpus, intersect(names(reference_corpus), names(focal_corpus)))
 focal_corpus <- select(focal_corpus, intersect(names(reference_corpus), names(focal_corpus)))
 corpus <- rbind(focal_corpus, reference_corpus)
@@ -133,7 +138,8 @@ corpus <- rbind(focal_corpus, reference_corpus)
 
 Get summary statistics about some characteristics of the articles, and graph them for comparison:
 
-```{r eval=FALSE}
+
+```r
 summ_stats <- group_by(corpus, Corpus) %>%
   summarise(mean_cites=mean(TC),
             sem_cites=sd(TC)/sqrt(n()),

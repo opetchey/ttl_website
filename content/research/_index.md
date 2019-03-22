@@ -9,9 +9,9 @@ toc = false  # Show table of contents? true/false
 type = " "  # Do not modify.
 
 # Add menu entry to sidebar.
-#[menu.research]
-#  name = "Research"
-#  weight = 3
+[menu.research]
+  name = "Overview"
+  weight = 1
 +++
 
 [Please see the information on this web page of the University of Zurich.](https://www.ieu.uzh.ch/en/research/ecology/extinction.html)

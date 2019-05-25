@@ -42,3 +42,6 @@ Distractions will always occur.
 Presence by noting
 How to achieve it .... evernote method
 Practice, practice, practice.
+
+Noting as a mechanism to increase presence.
+Noting is not easy.

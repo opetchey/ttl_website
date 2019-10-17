@@ -10,6 +10,26 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>For your interest</title>
+      <link>/posts/for-your-interest/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/for-your-interest/</guid>
+      <description>&lt;p&gt;A few things I&amp;rsquo;ve written that may be of interest. I wrote them some time ago and could now critique some of the points and arguments, but believe the main themes remain valid.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/old_posts/TheTrophicLink-About_fairness_in_the_workplace.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Fairness at work (PDF).&lt;/strong&gt;&lt;/a&gt; The outcome of an incomplete delve into the role of fairness in the workplace.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/posts/an-academic-in-business-school-and-being-a-better-dad/&#34;&gt;&lt;strong&gt;Leadership and competition.&lt;/strong&gt;&lt;/a&gt; A perhaps rather preachy piece about what I understand about leadership and competitiveness.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20When%20should%20I%20start%20giving_.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;When to give (PDF)?&lt;/strong&gt;&lt;/a&gt; Some thoughts on when during our careers we might start &amp;ldquo;giving&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/posts/students-are-not-our-customers-they-are-our-products/&#34;&gt;&lt;strong&gt;A University, a Business?&lt;/strong&gt;&lt;/a&gt; Ideas about how we could avoid viewing students as customers even if we did view a university as a business.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/posts/valuing-contributions-in-teams/&#34;&gt;&lt;strong&gt;Valuing individuals in team.&lt;/strong&gt;&lt;/a&gt; Comments on some challenges when working in teams, and a tool for helping avoid them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Demonstrating added-value of integrative research</title>
       <link>/posts/demonstrating-added-value-of-integrative-research/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
@@ -298,14 +318,16 @@ ggsave(filename=&amp;quot;~/Desktop/corpus_comparison.jpg&amp;quot;, plot=p0, wi
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/students-are-not-our-customers-they-are-our-products/</guid>
-      <description>&lt;p&gt;Universities are composed of two broad groups of individuals. The managers and the academics. The managers govern and lead; the academics do the teaching and research. Managers tend to view the University as a business, and academics tend to view the University as, well, not a business. (Some of the managers were academics, few of the academics were managers.)&lt;/p&gt;
+      <description>&lt;p&gt;Universities are composed of various groups of individuals, including managers and the academics. The managers govern and lead; the academics do the teaching and research. Managers tend to view the University as a business (the extent of this differs among nations and institutinos), and academics tend to view the University as, well, not a business. (Some of the managers were academics, few of the academics were managers.)&lt;/p&gt;
 
-&lt;p&gt;When a viewing a University as a Business, the question “who are our customers” quickly arises. It is tempting to view the students as the customer. Though one might consider this accurate from a transactional perspective, it is a deeply disfunctional perspective.
-A customer-provider relationship is not easily compatible with a good teach/mentor–student relationship. In particular, students-as-customers is not conducive to students taking responsibility for their learning. Perhap this is why it is quite unpalatable to many teachers.&lt;/p&gt;
+&lt;p&gt;When viewing a University as a business, the question “who are our customers” arises. It is tempting to view the students as the customer. Though one might consider this accurate from a transactional perspective, it is a disfunctional perspective.
+A customer-provider relationship is not easily compatible with a teach/mentor–student relationship. In particular, students-as-customers is not conducive to students taking responsibility for their learning. Perhap this is why it is quite unpalatable to many teachers.&lt;/p&gt;
 
-&lt;p&gt;So don´t view the student as the customer. Don&amp;rsquo;t even think of a University as a Business. But if you really really want to apply a business perspective to a University (and I believe there are important reasons for doing so), view the student as the product, and their future employer as the customer.&lt;/p&gt;
+&lt;p&gt;So let us avoid viewing the student as the customer. And not think of a University as a business. But if you really really want to apply a business perspective to a University (and there may be reasons for doing so), view the student as the product, and their future employer as the customer.&lt;/p&gt;
 
-&lt;p&gt;The University takes in relatively raw materials (new students) and transforms them into valuable products (graduates) by adding value (knowledge, skills, attitudes, relationships). These graduates have attributes (the product specification), and these are advertised to potential employers by their degree name, courses taken, and grade achieved. The attractiveness of the product (graduate) to the customer (the potential employer) is determined by match of desired and advertised skills (a match between employer desires and the employers perception of the product) , match between advertised and actual skills (underselling or overselling represent lack of match), and of brand perception (not all University degrees are regarded equally).&lt;/p&gt;
+&lt;p&gt;The University takes in relatively raw materials (new students) and transforms them into valuable products (graduates) by adding value (knowledge, skills, attitudes, relationships). These graduates have attributes (the product specification), and these are advertised to potential employers by their degree name, courses taken, and grade achieved. The attractiveness of the product (graduate) to the customer (the potential employer, or more generally to society) is determined by match of desired and advertised skills (a match between employer desires and the employers perception of the product), match between advertised and actual skills (underselling or overselling represent lack of match), and of brand perception (not all University degrees are regarded equally).&lt;/p&gt;
+
+&lt;p&gt;Perhaps such a perspective would be more palatable to all?&lt;/p&gt;
 </description>
     </item>
     

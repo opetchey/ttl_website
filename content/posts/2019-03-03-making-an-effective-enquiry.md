@@ -1,5 +1,5 @@
 ---
-title: Making an effective enquiry
+title: Making an (even more) effective enquiry
 author: Owen
 date: '2019-03-03'
 slug: making-an-effective-enquiry

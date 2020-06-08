@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on TheTrophicLink</title>
+    <link>/research/</link>
+    <description>Recent content in Research on TheTrophicLink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Food webs</title>
+      <link>/research/food_webs/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/research/food_webs/</guid>
+      <description>A brief history of our work on understanding, explaining, and predicting variation in food web strucure.
+ The first quantitative explanation (i.e. mathematical model) for the number of trophic links one would expect to see in a food web. We also showed that when parameterised with independent data the explanation made very nice predictions of what is observed in real food webs (Beckerman et al 2006.). The explanation is based on the contingency foraging model that predicts which of the food items a consumer should choose to consume out of all available food items.</description>
+    </item>
+    
+  </channel>
+</rss>

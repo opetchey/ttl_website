@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TheTrophicLink on TheTrophicLink</title>
+    <link>/</link>
+    <description>Recent content in TheTrophicLink on TheTrophicLink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>For your interest</title>
+      <link>/posts/for-your-interest/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/for-your-interest/</guid>
+      <description>&lt;p&gt;A few things I&amp;rsquo;ve written that may be of interest. I wrote them some time ago and could now critique some of the points and arguments, but believe the main themes remain valid.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/old_posts/TheTrophicLink-About_fairness_in_the_workplace.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Fairness at work (PDF).&lt;/strong&gt;&lt;/a&gt; The outcome of an incomplete delve into the role of fairness in the workplace.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/posts/an-academic-in-business-school-and-being-a-better-dad/&#34;&gt;&lt;strong&gt;Leadership and competition.&lt;/strong&gt;&lt;/a&gt; A perhaps rather preachy piece about what I understand about leadership and competitiveness.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20When%20should%20I%20start%20giving_.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;When to give (PDF)?&lt;/strong&gt;&lt;/a&gt; Some thoughts on when during our careers we might start &amp;ldquo;giving&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/posts/students-are-not-our-customers-they-are-our-products/&#34;&gt;&lt;strong&gt;A University, a Business?&lt;/strong&gt;&lt;/a&gt; Ideas about how we could avoid viewing students as customers even if we did view a university as a business.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/posts/valuing-contributions-in-teams/&#34;&gt;&lt;strong&gt;Valuing individuals in team.&lt;/strong&gt;&lt;/a&gt; Comments on some challenges when working in teams, and a tool for helping avoid them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demonstrating added-value of integrative research</title>
+      <link>/posts/demonstrating-added-value-of-integrative-research/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/demonstrating-added-value-of-integrative-research/</guid>
+      <description>
+
+&lt;p&gt;Do you think that &lt;em&gt;integrative&lt;/em&gt; research has &lt;em&gt;added-value&lt;/em&gt;? Is it more than the sum of its parts? How can we show how integrative is a body of research, and investigate if it has added-value?&lt;/p&gt;
+
+&lt;p&gt;These are difficult questions that we don&amp;rsquo;t have all the answers to. Here we give a few possibilities based on the corpus of publications produced by a research programme aimed at creating added-value via promoting integrative research. We visualise characteristics of that corpus of publications, and compare to a reference corpus of publications arising from research that may or may not have included integrative research. (And the gory details of how we did this are provided below.)&lt;/p&gt;
+
+&lt;p&gt;The example below involves the corpus of publications arising from the &lt;a href=&#34;https://www.gcb.uzh.ch/en.html&#34;&gt;University of Zurich Research Priority Programme in Global Change and Biodiversity (URPP GCB)&lt;/a&gt;. The reference corpus is from related research fields for similar time period at University of Zurich (exact specification in the gory details section).&lt;/p&gt;
+
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/coauthor_network.jpeg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;The network of co-authors in the URPP GCB corpus.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Figure 1 shows the tightly connected co-authorship network of 20 of the researchers in the URPP GCB. It shows that in terms of collaboration there is a great deal of integration. The number of co-authors in the URPP GCB corpus is about 20% greater than in the reference, though only by about one author on average (Figure 2). The number of times articles were cited is about 30% greater in the URPP GCB corpus than in the reference (Figure 2).&lt;/p&gt;
+
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/corpus_comparison.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Comparison of number of authors per article and number of times articles are cited between in the reference corpus and the focal (URPP GCB) corpus. (Mean plus/minus one standard error.)&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;the-gory-details&#34;&gt;The gory details&amp;hellip;&lt;/h1&gt;
+
+&lt;p&gt;Warning! &amp;mdash; what you see below is a bit technical, not all explained in great detail, and you need to know how to use R / RStudio and various add on packages.&lt;/p&gt;
+
+&lt;p&gt;The code and datasets used below are available in this &lt;a href=&#34;https://github.com/opetchey/dumping_ground/tree/master/corpus_comparison&#34;&gt;github folder&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;assemble-your-focal-corpus&#34;&gt;Assemble your focal corpus&lt;/h2&gt;
+
+&lt;p&gt;We manually entered all publications produced by the &lt;a href=&#34;https://www.gcb.uzh.ch/en.html&#34;&gt;URPP GCB&lt;/a&gt; into &lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt;. (Actually, we used the lovely &lt;em&gt;Add items by identifier&lt;/em&gt; Zotero button, and added by DOI.)&lt;/p&gt;
+
+&lt;h2 id=&#34;get-information-about-your-corpus-from-wos&#34;&gt;Get information about your corpus from WoS&lt;/h2&gt;
+
+&lt;p&gt;We will get information from WoS on the specific papers in our corpus by searching WoS for the DOIs of the articles in the corpus. To do this, we want to get text, which we&amp;rsquo;ll paste into the WoS search term field, of the following nature :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;02/ECY.2003 OR 16/J.ECOCOM.2016.12.005 OR 16/J.RSE.2014.11.014 OR 02/ECY.1748 OR 16/J.COSUST.2018.04.016 OR 02/ECE3.1186 OR 93/FEMSEC/FIV066 OR 11/ELE.12443&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To get this text:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## install the following if required
+library(bibliometrix)
+library(tidyverse)
+library(circlize)
+library(wordcloud2)
+library(cowplot)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Highlight the papers in Zotero that are your corpus.&lt;/li&gt;
+&lt;li&gt;Use the File -&amp;gt; Export Library&amp;hellip; tool in Zotero, choose BibTex format, leave all boxes unchecked, leave Character encoding as Unicode (UTF-8), click OK, and choose the location and filename. We named the file &lt;code&gt;from_zotero.bib&lt;/code&gt; and saved it to our Desktop (referred to on a Mac by &lt;code&gt;~/Desktop/&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Use the following code in R to get a new file that contains the text, mentioned above, that we will paste into the WoS search:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;readFiles(&amp;quot;~/Desktop/from_zotero.bib&amp;quot;) %&amp;gt;%
+  isibib2df() %&amp;gt;%
+  dplyr::mutate(DOI=stringr::str_trim(DI)) %&amp;gt;%
+  filter(!is.na(DOI)) %&amp;gt;%
+  pull(DOI) %&amp;gt;%
+  paste(collapse=&amp;quot; OR &amp;quot;) %&amp;gt;%
+  cat(file=&amp;quot;~/Desktop/dois_for_WoS.txt&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open the file (we named it &lt;code&gt;dois_for_WoS.txt&lt;/code&gt; and saved it to our Desktop) with the DOI text we need to paste into the Wos search field. Copy the text, and paste it into the search term window of &lt;a href=&#34;www.isiknowledge.com&#34;&gt;WoS Basic Search&lt;/a&gt;. Select &lt;code&gt;DOI&lt;/code&gt; as the item being searched for. Hit the Search button.&lt;/li&gt;
+&lt;li&gt;You may get fewer results from WoS than DOIs you entered. At time of writing this article we had 164 DOIs, or which WoS found 138. We didn&amp;rsquo;t look in great detail at which were not found and why they were not.&lt;/li&gt;
+&lt;li&gt;Get data out of WoS by using the &lt;em&gt;Save to Other File Formats&lt;/em&gt; option. Specify the numbers of the records (we chose 1 through 138, i.e. all of them) (If you have lots, you may have to do this multiple times, as WoS has a limit of 500 records it will save in one go.). Select Record Content to be &lt;em&gt;Full Record and Cited References&lt;/em&gt;, and File Format to be BibTex. Click Send and you should soon get a file &lt;code&gt;savedrecs.bib&lt;/code&gt; (it should appear in the folder where you downloads usually go). Rename the downloaded file to something meaningful, e.g. we named ours to &lt;code&gt;focal_corpus_from_WoS.bib&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;get-information-about-the-reference-corpus&#34;&gt;Get information about the reference corpus&lt;/h2&gt;
+
+&lt;p&gt;We got the reference corpus from WoS using the following search terms:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ORGANIZATION-ENHANCED: (University of Zurich)&lt;/li&gt;
+&lt;li&gt;WEB OF SCIENCE CATEGORIES: ( ENVIRONMENTAL SCIENCES OR REMOTE SENSING OR ECOLOGY OR PLANT SCIENCES OR GEOGRAPHY PHYSICAL OR ENVIRONMENTAL STUDIES )&lt;/li&gt;
+&lt;li&gt;Timespan: 2013-2018.&lt;/li&gt;
+&lt;li&gt;Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This search returned over 2&amp;rsquo;000 papers that we saved the information from WoS about using the same approach as in step 6 in the previous section. We got five files of records for this reference corpus due to the 500 record save limit of WoS.&lt;/p&gt;
+
+&lt;h2 id=&#34;load-everything-into-r&#34;&gt;Load everything into R!&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;focal_corpus &amp;lt;- readFiles(&amp;quot;~/Desktop/focal_corpus_from_WoS.bib&amp;quot;) %&amp;gt;%
+  isibib2df() %&amp;gt;%
+  mutate(TC=as.numeric(TC),
+         Corpus=&amp;quot;URPPGCB&amp;quot;,
+         AUx=gsub(&amp;quot;;&amp;quot;,&amp;quot;&amp;quot;,AU),
+         num_authors=nchar(AU) - nchar(AUx))
+D1 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus1.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+D2 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus2.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+D3 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus2.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+D4 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus2.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+D5 &amp;lt;- readFiles(&amp;quot;~/Desktop/ref-corpus2.bib&amp;quot;) %&amp;gt;%
+  isibib2df()
+reference_corpus &amp;lt;- rbind(D1, D2, D3, D4, D5) %&amp;gt;%
+  mutate(TC=as.numeric(TC),
+         Corpus=&amp;quot;Reference&amp;quot;,
+         AUx=gsub(&amp;quot;;&amp;quot;,&amp;quot;&amp;quot;,AU),
+         num_authors=nchar(AU) - nchar(AUx))
+rm(D1, D2, D3, D4, D5)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;make-a-co-authorship-network-reference-corpus-only&#34;&gt;Make a co-authorship network (reference corpus only)&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;focal_corpus_biban &amp;lt;- biblioAnalysis(focal_corpus)
+NetMatrix &amp;lt;- biblioNetwork(focal_corpus, analysis = &amp;quot;collaboration&amp;quot;,  network = &amp;quot;authors&amp;quot;, sep = &amp;quot;;&amp;quot;)
+MM &amp;lt;- as(NetMatrix, &amp;quot;matrix&amp;quot;)
+MM &amp;lt;- MM[order(rownames(MM)), order(colnames(MM))]
+diag(MM) &amp;lt;- 0
+top_authors &amp;lt;- focal_corpus_biban$Authors[1:20]
+these_cols &amp;lt;- colnames(MM) %in% names(top_authors)
+these_rows &amp;lt;- rownames(MM) %in% names(top_authors)
+top_MM &amp;lt;- MM[these_rows,these_cols]
+set.seed(999)
+chordDiagram(top_MM, symmetric = TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;combine-and-compare-the-focal-and-reference-corpus&#34;&gt;Combine and compare the focal and reference corpus&lt;/h2&gt;
+
+&lt;p&gt;First combine into one object the data about the two corpi:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;reference_corpus &amp;lt;- select(reference_corpus, intersect(names(reference_corpus), names(focal_corpus)))
+focal_corpus &amp;lt;- select(focal_corpus, intersect(names(reference_corpus), names(focal_corpus)))
+corpus &amp;lt;- rbind(focal_corpus, reference_corpus)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Get summary statistics about some characteristics of the articles, and graph them for comparison:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summ_stats &amp;lt;- group_by(corpus, Corpus) %&amp;gt;%
+  summarise(mean_cites=mean(TC),
+            sem_cites=sd(TC)/sqrt(n()),
+            mean_num_authors=mean(num_authors),
+            sem_num_authors=sd(num_authors)/sqrt(n()))
+p1 &amp;lt;- ggplot(summ_stats) +
+  geom_point(mapping=aes(x=Corpus, y=mean_cites)) +
+  geom_errorbar(mapping=aes(x=Corpus,
+                            ymin=mean_cites-sem_cites,
+                            ymax=mean_cites+sem_cites),
+                width=0.1) +
+  ylab(&amp;quot;Number of times cited&amp;quot;) 
+p2 &amp;lt;- ggplot(summ_stats) +
+  geom_point(mapping=aes(x=Corpus, y=mean_num_authors)) +
+  geom_errorbar(mapping=aes(x=Corpus,
+                            ymin=mean_num_authors-sem_num_authors,
+                            ymax=mean_num_authors+sem_num_authors),
+                width=0.1) +
+  ylab(&amp;quot;Number of authors&amp;quot;) 
+p0 &amp;lt;- plot_grid(p2, p1)
+ggsave(filename=&amp;quot;~/Desktop/corpus_comparison.jpg&amp;quot;, plot=p0, width = 6, height = 4)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A tool for valuing contributions in teams</title>
+      <link>/posts/valuing-contributions-in-teams/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/valuing-contributions-in-teams/</guid>
+      <description>
+
+&lt;p&gt;Working in teams can be some of the most stimulating, exciting, and important experiences we have. At other times things can get a bit sticky, for example when it comes to attributing rewards (e.g. deciding authorship and authorship order of publications arising). Hence proactive planning and assessing the contributions of members of our teams can be useful. In order to assist with this, a collaboration agreement is a very good idea. Also, teams may find useful this new tool for planning and assessing contributions in teams.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://owenpetchey.shinyapps.io/valuing_contributions_in_teams/&#34;&gt;web application valuing contributions in teams&lt;/a&gt; summarises the contributions that a team can report in the associated &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1hfpQblHZeAKTDYqYSvOw2E6eQ__Vp-n_NsOjcosfG5Y&#34;&gt;googlesheet Valuing contributions in teams&lt;/a&gt;. Below is a bit more detail about the problems and solutions being addressed.&lt;/p&gt;
+
+&lt;h3 id=&#34;in-the-googlesheet-you&#34;&gt;In the googlesheet you:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Specifiy project details that should be decided in collaboration with project members.&lt;/li&gt;
+&lt;li&gt;Enter the project name and the threshold contribution for authorship (or other reward scheme) in the project information sheet.&lt;/li&gt;
+&lt;li&gt;Enter your team members into the sheet with that name.&lt;/li&gt;
+&lt;li&gt;Decide on your contribution types and weights and enter information into the sheet of that name.&lt;/li&gt;
+&lt;li&gt;Decide planned activities and enter the information into the sheet with that name&lt;/li&gt;
+&lt;li&gt;During the project enter realised contributions in the sheet with that name.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;problems-and-solutions-in-teams&#34;&gt;Problems and solutions in teams&lt;/h3&gt;
+
+&lt;p&gt;There are a number of challenges in team projects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Authorship order is not sufficient to indicate and summarise what in reality are nuanced/continuous/diverse types of contributions.&lt;/li&gt;
+&lt;li&gt;Lack of transparency in team members efforts, which can lead to &lt;a href=&#34;https://www.thecut.com/2017/04/what-to-do-when-you-feel-like-the-only-roommate-who-cleans.html&#34;&gt;overestimation of our contribution and underestimate of others&amp;rsquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Changes in contribution through course of a project.&lt;/li&gt;
+&lt;li&gt;Actual and intended contributions can deviate.&lt;/li&gt;
+&lt;li&gt;Value from synergies challenging to account for.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Solutions for some of the problems above:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use Contributor Roles Taxonomy (CRediT Term) with degree of contribution (lead, equal, supporting); report this in publications.&lt;/li&gt;
+&lt;li&gt;Team accessible list of contributions.&lt;/li&gt;
+&lt;li&gt;Tracked evolution of contributions, from intended to actual / final.&lt;/li&gt;
+&lt;li&gt;Transparent and flexible method for translating actual / final contributions into authorship order.&lt;/li&gt;
+&lt;li&gt;Contributor responsibility for recording their own contributions(?).&lt;/li&gt;
+&lt;li&gt;Project leader responsibility to ensure self-responsibility of contributors is understood, remembered and acted upon (e.g. develop research culture including these solutions; issue reminders).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An academic in business school, and being a better dad</title>
+      <link>/posts/an-academic-in-business-school-and-being-a-better-dad/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/an-academic-in-business-school-and-being-a-better-dad/</guid>
+      <description>
+
+&lt;p&gt;I’d never had formal management or leadership training, never been schooled in negotiation or influencing, and never run a business. I have now, and consequently have enhanced ability and confidence to lead teams, to navigate them through uncertain times, and, perhaps most importantly, to be a better dad.&lt;/p&gt;
+
+&lt;p&gt;During spring 2016 took part in the Fast Track Advanced Management Programme of Ashridge Executive Education. The Programme has two modules, each involves a one-week residential course at Ashridge, near Berkhamstead, just outside London.&lt;/p&gt;
+
+&lt;h2 id=&#34;wicked-problems-in-a-vuca-world&#34;&gt;Wicked problems in a VUCA world&lt;/h2&gt;
+
+&lt;p&gt;The industrial revolution led to times characterised by relative predictability. Design a television, make TVs, sell TVs, redesign TVs, make TVs, sell TVs. Manage the business to do that. That worked for at least half a century.&lt;/p&gt;
+
+&lt;p&gt;A foundation of leadership education at Ashridge is that we now live a VUCA world of wicked problems. VUCA is volatile, unpredictable, complex and ambiguous. Things will change, and we can´t predict how or when. Wicked problems have no single solution. Even the challenges we foresee will escape any single simple solution.&lt;/p&gt;
+
+&lt;p&gt;In such a world, leaders must draw on and nurture creativity. Team members need the high intrinsic motivation that comes from autonomy, from purpose, and from seeking mastery. Extrinsic motivation (e.g., performance related pay) and command-and-control leadership extinguish intrinsic motivation and the high levels of creativity arising.&lt;/p&gt;
+
+&lt;p&gt;The research team I lead tackles wicked problems; in particular how can we more accurately forecast ecological dynamics, such as fish stocks ten years from now. So while I was familiar with the territory, I hadn’t connected it to leadership. Ashridge helped make that connection, and in doing so helped crystalise in me a personal leadership style that resonates with my research, that will bring out the best in team members, and which I understand and can develop.&lt;/p&gt;
+
+&lt;h2 id=&#34;running-a-business&#34;&gt;Running a business&lt;/h2&gt;
+
+&lt;p&gt;The programme included a business simulation taking place at the rate of one simulated year every real hour. My small team of classmates competed against four teams of other classmates. We designed, marketed, advertised, and sold retail products. The presence of the other teams created uncertainties about the outcome of our actions. We didn´t know what types of product they might produce, how hard they would advertise, the state of their finances. It’s a great testament to the programme that I played a key role in our company winning the competition (there were only four of us in the company, so we all played a key role).&lt;/p&gt;
+
+&lt;p&gt;While I’m happy that my team won, I think more often about the mistakes we made, about how we were successful, and what other teams did differently to us. As it turned out, we’d been making a rather serious mistake for the entire simulation, and had it continued longer, we probably would not have won.&lt;/p&gt;
+
+&lt;p&gt;The most significant meta-lesson I took from the simulation was about what drives me. After we won, a classmate commented to me that I was probably highly competitive. I realised I don’t care about whether I am or not, because it is unimportant. Instead, I care about learning new things so that I can perform better than I could, about being creative, and about seeing others (and myself) attack the hardest problems we can find. It is nice, but for me relatively unimportant, that such behaviour often creates the greatest chance of winning.&lt;/p&gt;
+
+&lt;h2 id=&#34;collaborating-and-challenging&#34;&gt;Collaborating and challenging&lt;/h2&gt;
+
+&lt;p&gt;Perhaps my greatest concern was how I would get on with my classmates. Almost all were from the business world: managing director, development director, strategy director, vice president, financial controller, from a diversity of business sectors. How would I compare to them, would I make a fool of myself, what would they think of me? I was stepping way out of my familiar ivory tower.&lt;/p&gt;
+
+&lt;p&gt;I was challenged again and again. I had to ask what were P&amp;amp;L, KPIs, and B2B / B2C*. I probably said some stupid things. But I never felt any judgement from instructors or classmates. Quite the opposite. They were enthusiastic, supportive, open, observant, creative, and fun. The outstanding learning experience created by the excellent instructors was highly collaborative and challenged us all. We learned at least as much from each other as we did from the instructors. It gives me great optimism that these leaders in the business world focus on success through building supportive, safe, and authentic relationships.&lt;/p&gt;
+
+&lt;p&gt;That sounds rather too warm and fluffy for business folk. True, none of my classmates were bankers, though one was a lawyer. Joking aside, all were highly driven, ambitious, and at times challenging. My optimism comes from seeing so many folk showing, believing, and demonstrating that giving is a powerful and probably necessary partner of drive, ambition, and disruption.&lt;/p&gt;
+
+&lt;h2 id=&#34;being-a-better-dad&#34;&gt;Being a better dad&lt;/h2&gt;
+
+&lt;p&gt;Before kids, life was relatively predictable and controllable. Get up at 7am, make breakfast, eat breakfast, read the paper, walk to work, work, go home, sleep, repeat. Now, none of those are certain: the arrival of my kids created volatility, uncertainty, complexity, and ambiguity. There are no simple or single obvious solutions to the challenges they create. And they themselves will grow up, live, and, with the leadership I may give, thrive in a VUCA world of wicked problems.&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; Owen Petchey, April 2016&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Students are not our customers, they are our products</title>
+      <link>/posts/students-are-not-our-customers-they-are-our-products/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/students-are-not-our-customers-they-are-our-products/</guid>
+      <description>&lt;p&gt;Universities are composed of various groups of individuals, including managers and the academics. The managers govern and lead; the academics do the teaching and research. Managers tend to view the University as a business (the extent of this differs among nations and institutinos), and academics tend to view the University as, well, not a business. (Some of the managers were academics, few of the academics were managers.)&lt;/p&gt;
+
+&lt;p&gt;When viewing a University as a business, the question “who are our customers” arises. It is tempting to view the students as the customer. Though one might consider this accurate from a transactional perspective, it is a disfunctional perspective.
+A customer-provider relationship is not easily compatible with a teach/mentor–student relationship. In particular, students-as-customers is not conducive to students taking responsibility for their learning. Perhap this is why it is quite unpalatable to many teachers.&lt;/p&gt;
+
+&lt;p&gt;So let us avoid viewing the student as the customer. And not think of a University as a business. But if you really really want to apply a business perspective to a University (and there may be reasons for doing so), view the student as the product, and their future employer as the customer.&lt;/p&gt;
+
+&lt;p&gt;The University takes in relatively raw materials (new students) and transforms them into valuable products (graduates) by adding value (knowledge, skills, attitudes, relationships). These graduates have attributes (the product specification), and these are advertised to potential employers by their degree name, courses taken, and grade achieved. The attractiveness of the product (graduate) to the customer (the potential employer, or more generally to society) is determined by match of desired and advertised skills (a match between employer desires and the employers perception of the product), match between advertised and actual skills (underselling or overselling represent lack of match), and of brand perception (not all University degrees are regarded equally).&lt;/p&gt;
+
+&lt;p&gt;Perhaps such a perspective would be more palatable to all?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Calculating FD</title>
+      <link>/posts/calculating-fd/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/calculating-fd/</guid>
+      <description>
+
+&lt;p&gt;Here you can get code and instruction on how to calculate FD, the measure of functional diversity that Owen and Kevin Gaston created.&lt;/p&gt;
+
+&lt;p&gt;Below is advice for using some code and functions in R that use the same matrix notation as in the original publication &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract&#34;&gt;Petchey &amp;amp; Gaston (2002)&lt;/a&gt;. The functions are updated to account for &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2006.00924.x/abstract&#34;&gt;the development&lt;/a&gt; to FD we published in 2006.&lt;/p&gt;
+
+&lt;h2 id=&#34;example-1&#34;&gt;Example 1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get the &lt;a href=&#34;https://github.com/opetchey/dumping_ground/tree/master/functional_diversity&#34;&gt;code and example datasets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Gain an understanding of how to use R.&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;dist&lt;/code&gt; and &lt;code&gt;hclust&lt;/code&gt; functions to calculate a dendrogram from a trait matrix. Paste the &lt;code&gt;Xtree&lt;/code&gt; function into R. Use it to transform the object returned by &lt;code&gt;hclust&lt;/code&gt; into an object from which total branch is easy to calculate.&lt;/li&gt;
+&lt;li&gt;The object returned by &lt;code&gt;Xtree&lt;/code&gt; is a list containing a species by branch matrix (H1) and a branch length vector (h2) (see &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Follow the methods in &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract&#34;&gt;Petchey Gaston (2002)&lt;/a&gt; to get FD from H1 and h2.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;FD.example.1.r&lt;/code&gt; file contains an example of using R to calculate the FD of a random community as it loses species; just paste the text into R. (Remember to paste in the &lt;code&gt;Xtree&lt;/code&gt; function!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;fd-example-2&#34;&gt;FD Example 2&lt;/h2&gt;
+
+&lt;p&gt;This example demonstrates what people have been asking about some: how to calculate the FD of communities that have different compositions, and see if those measures of FD correlate with a particular measure of ecosystem process (or community property).&lt;/p&gt;
+
+&lt;p&gt;Always use three data files as the foundation of these types of analysis. Each is created in xl, saved in xl, and saved as a comma delimited text file (extension .csv) because these are easily read into R. You should download all of these files to a particular directory. (Actually, you really need only the csv files.) The files are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The species by trait matrix: &lt;code&gt;species.traits.xls&lt;/code&gt; (Excel file) or &lt;code&gt;species.traits.csv&lt;/code&gt;(csv file). Here, the first column contains the names of the species and the remaining columns the traits.&lt;/li&gt;
+&lt;li&gt;The community composition matrix. &lt;code&gt;community.composition.xls&lt;/code&gt; (Excel file) &lt;code&gt;community.composition.csv&lt;/code&gt; (csv file). Species names must correspond with those in the species by trait matrix&lt;/li&gt;
+&lt;li&gt;The community by functioning matrix. &lt;code&gt;community.functioning.xls&lt;/code&gt; (Excel file)  &lt;code&gt;community.functioning.csv&lt;/code&gt; (csv file). Community identifiers must correspond with those in the community composition matrix.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The &lt;code&gt;FD.example.2.r&lt;/code&gt; code shows how to calculate the FD of each community from the traits of species and see whether it looks like correlating with functioning.&lt;/p&gt;
+
+&lt;h2 id=&#34;fd-example-3&#34;&gt;FD Example 3&lt;/h2&gt;
+
+&lt;p&gt;And finally, for now, there is a demonstration of differences between FD and variance calculated on a single trait. See the file &lt;code&gt;FDandvariance.r&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Food web tools</title>
+      <link>/posts/food-web-tools/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/food-web-tools/</guid>
+      <description>
+
+&lt;p&gt;Here you can get code to model and analyse the random, cascade, and niche food web models.&lt;/p&gt;
+
+&lt;p&gt;Download the code and example data files (and not the &lt;code&gt;ADBM_shiny&lt;/code&gt; folder) for all of the above from &lt;a href=&#34;https://github.com/opetchey/dumping_ground/tree/master/random_cascade_niche&#34;&gt;this folder on github&lt;/a&gt;. None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.&lt;/p&gt;
+
+&lt;p&gt;All the code is written for R. We really can&amp;rsquo;t recommend it highly enough. Virtually every type of ecological analysis is already available in the main distribution of R and/or the extra packages). R&amp;rsquo;s default graphics are of publication quality (and easily edited). Its free, will run on virtually any platform (e.g., Windows, Linux, Macs), and seems to be significantly faster than many other languages/environments. The only apparent down side is the steep learning curve. However, little steps easily tackle steep slopes; the effort will be rewarded. None of this code comes with any guarantee. In fact its all pretty dirty and not optimised. Please contact Owen if you have suggestions or possible corrections.&lt;/p&gt;
+
+&lt;p&gt;Some of the things you can do with the code:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Model food webs using random, cascade, or niche algorithms.&lt;/li&gt;
+&lt;li&gt;Plot a predation matrix of the food web.&lt;/li&gt;
+&lt;li&gt;Calculate structural properties of food webs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Learn how to use R(!).&lt;/li&gt;
+&lt;li&gt;Get the code.&lt;/li&gt;
+&lt;li&gt;Source the file &lt;code&gt;FoodWebFunctions.r&lt;/code&gt; into R; it contains a bunch of food webby functions.&lt;/li&gt;
+&lt;li&gt;Check out the code in &lt;code&gt;FoodWebExamples.r&lt;/code&gt; for an example of how to use the functions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Neo Martinez and Alice Boit recently showed me Network 3D. This is just a note to remind myself to write some instructions and code that can help me and perhaps others to move between the data format I’ve been using to store food webs, and a format easily read by Network 3D. Note that the R package cheddar has a function for formatting data for Network 3D.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>All the old posts</title>
+      <link>/posts/all-the-old-posts/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/all-the-old-posts/</guid>
+      <description>&lt;p&gt;Owen couldn&amp;rsquo;t figure out how to easily and quickly move posts from the old wordpress site to this one. Here they all are as pdfs of the wordpress posts.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink-About_fairness_in_the_workplace.pdf&#34; target=&#34;_blank&#34;&gt;About fairness in the workplace.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20About%20p-values.pdf&#34; target=&#34;_blank&#34;&gt;About p-values.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Back%20garden%20camera%20trap.pdf&#34; target=&#34;_blank&#34;&gt;Back garden camera trap.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Global%20net%20change%20in%20local%20plant%20biodiversity_.pdf&#34; target=&#34;_blank&#34;&gt;Global net change in local plant biodiversity.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Graduation%20day!.pdf&#34; target=&#34;_blank&#34;&gt;Graduation day!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Group%20retreat%202016.pdf&#34; target=&#34;_blank&#34;&gt;Group retreat 2016.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20How%20to%20read%20ANCOVA%20summary%20tables%20in%20R.pdf&#34; target=&#34;_blank&#34;&gt;How to read ANCOVA summary tables in R.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20IEU%20Photo-Exhibition.pdf&#34; target=&#34;_blank&#34;&gt;IEU Photo-Exhibition.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%201.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 1.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%202.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 2.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%203.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 3.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%204.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 4.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%205.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 5.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%206.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 6.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%207.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 7.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%208.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 8.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%209.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 9.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%2010.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 10.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%2011.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 11.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%2012.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 12.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20My%20first%20flipped%20classroom%20course.pdf&#34; target=&#34;_blank&#34;&gt;My first flipped classroom course.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Peer%20review%20in%20performance%20appraisals.pdf&#34; target=&#34;_blank&#34;&gt;Peer review in performance appraisals.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Predation%20matrices.pdf&#34; target=&#34;_blank&#34;&gt;Predation matrices.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Random%20resources%201.pdf&#34; target=&#34;_blank&#34;&gt;Random resources 1.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Some%20books.pdf&#34; target=&#34;_blank&#34;&gt;Some books.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Some%20notes%20on%20Principal%20Component%20Analysis.pdf&#34; target=&#34;_blank&#34;&gt;Some notes on Principal Component Analysis.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Testing%20the%20Metabolic%20Theory%20of%20Ecology_%20a%20simple%20pipeline%20using%20R_.pdf&#34; target=&#34;_blank&#34;&gt;Testing the Metabolic Theory of Ecology_ a simple pipeline using R_.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20The%20art%20of%20advertising%20science-elevator%20pitches.pdf&#34; target=&#34;_blank&#34;&gt;The art of advertising science-elevator pitches.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20When%20should%20I%20start%20giving_.pdf&#34; target=&#34;_blank&#34;&gt;When should I start giving.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making an (even more) effective enquiry</title>
+      <link>/posts/making-an-effective-enquiry/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/making-an-effective-enquiry/</guid>
+      <description>&lt;p&gt;Whether you are enquiring about available positions (and perhaps funding) or have a funding scheme that you would like to apply for (to be held in Owen’s group), there are a few things you can do to make it more likely that you get a useful response from Owen, or any other potential supporter.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Include your CV with your enquiry, including names of any previous supervisors.&lt;/li&gt;
+&lt;li&gt;Include a short statement of research interests and motivation, highlighting any outstanding acheivements.&lt;/li&gt;
+&lt;li&gt;Include a statement about the research you propose and how this research fits well with the supervisor’s / group’s.&lt;/li&gt;
+&lt;li&gt;Be explicit about the funding source(s) you have in mind. Link to the funding scheme web pages you have identified.&lt;/li&gt;
+&lt;li&gt;Begin enquiries at least one month before any deadlines; more time may be needed in many cases.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many enquiries Owen receives do to adequately address the third point&amp;hellip; i.e. fit is unclear and/or weak. If you would like advice from Owen about who at UZH, in Zurich, or further afield might be a better fit, please lead with suggestions of such people/groups/laboratories, each with rationale, and Owen would be happy to provide feedback.&lt;/p&gt;
+
+&lt;p&gt;Many enquiries also do not adequately address the third or fourth point.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Food webs</title>
+      <link>/research/food_webs/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/research/food_webs/</guid>
+      <description>&lt;p&gt;A brief history of our work on understanding, explaining, and predicting variation in food web strucure.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The first quantitative explanation (i.e. mathematical model) for the number of trophic links one would expect to see in a food web.&lt;/strong&gt; We also showed that when parameterised with independent data the explanation made very nice predictions of what is observed in real food webs (&lt;a href=&#34;https://www.pnas.org/content/103/37/13745&#34;&gt;Beckerman et al 2006.&lt;/a&gt;). The explanation is based on the &lt;em&gt;contingency&lt;/em&gt; foraging model that predicts which of the food items a consumer should choose to consume out of all available food items. The contingency model does this by finding the food items that would maximise energy intake rate, and works with organismal traits such as energetic content of a food item, rate of space clearance, time to handle a food items, and probability of encountering different food items.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The first model able to predict food web complexity and structure.&lt;/strong&gt; We added to the model size dependency of the organismal traits (i.e. we added allometries of the foraging relevant traits) (&lt;a href=&#34;https://www.pnas.org/content/105/11/4191&#34;&gt;Petchey et al 2008&lt;/a&gt;). Doing this created explanations for the patterning of trophic links in food webs that were able to very well explain the observed structure of some real food webs. We termed this model the &lt;em&gt;Allometric diet breadth model&lt;/em&gt; (ADBM).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The first predictions of temperature effects on food web complexity (connectance).&lt;/strong&gt; We added to the model temperature dependence of the organismal traits to the ADBM (&lt;a href=&#34;https://royalsocietypublishing.org/doi/full/10.1098/rstb.2010.0011&#34;&gt;Petchey et al 2010&lt;/a&gt;). The effect of temperature on the number of links (and connectance) in a food web is predicted to depend on variation in the effects of temperature on the different organismal traits.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;83% of trophic links predicted correctly when ignoring taxonomy.&lt;/strong&gt;. When allowed to ignore taxomony the ADBM explained the structure of empirical food webs almost twice as accurately as the equivalent species-based explanation, with the best performance being 83% of the links predicted correctly in the Broadstone Stream food web. (&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/B978012385005800006X&#34;&gt;Nasty paywall on this: Woodward et al 2010&lt;/a&gt;) (&lt;a href=&#34;https://sci-hub.tw/10.1016/B978-0-12-385005-8.00006-X&#34;&gt;Here&amp;rsquo;s a link to the article on SciHub&lt;/a&gt;, though you should be aware that it may be illeagal to use this resource).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Clarification of what is so different and special about our approach to explaining and predicting food web structure.&lt;/strong&gt; Peer reviews of Petchey et al 2008 argued that we should not compare our model to previous ones as it would be akin to comparing apples and oranges&amp;ndash;we were happy they view our model as being so different/special. We clarified the differences and their implications (e.g. that comparisons with other types of model is rather misplaced) in this article: &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0022519311001652&#34;&gt;Petchey et al 2011&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Adpative rewiring predicted by the ADBM stabilises food webs.&lt;/strong&gt; A study involving model food webs in which species are made extinct and the remaining ones adjust their diets according to the contingency foraging model in the ADBM. This adjustment, also termed &lt;em&gt;rewiring&lt;/em&gt; generally leads to fewer secondary extinctions, though not always, depending on species body sizes, and the criteria used for secondary extinctions. (&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1439179111001186&#34;&gt;Thierry et al 2011&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Foraging allometries explain variation in food web structure.&lt;/strong&gt; An theoretical investigation of if and how allomtries of organismal traits (e.g. handling time, space clearance rate) affect the foodweb allometries: the generality‐mass correlation, the vulnerability‐mass correlation and the trophic height‐mass correlation. The results demonstrate how allometries of individual foraging behaviour are linked across scales of organisation. (&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/j.1600-0706.2010.18861.x&#34;&gt;Thierry et al 2011&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What next? Its now early 2019 and we are starting some new related projects. Hopefully we will have some more points to add here very soon.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -17,7 +17,7 @@ caption = ""
 
 ## If you might be interested in joining the team...
 
-Immediately below are some of the researchers currently in the team, their research interests, and how they may be able to help you. Then come sections on general masters, PhD, and postdoctoral opporunities.
+Immediately below are some of the researchers currently in the team, their research interests, and how they may be able to help you. Then come sections on general masters, PhD, and postdoctoral opportunities.
 
 [Frank Pennekamp](https://frank-pennekamp.info)  I am interested in biotic responses to environmental change from the individual to the ecosystem level. I primarily address my questions with experiments, field studies and statistical/mathematical modeling. While most of my work uses microbial model systems (protists), I am really fond of insects and my goal is to make them the focus of a new line of field-based research. I really enjoy to work at the interface of data and theory and would be happy to hear from people interested in internships, masters studies, phd studies, and postdoctoral research.  [Email Frank](mailto:frank.pennekamp@ieu.uzh.ch)
 
@@ -25,7 +25,7 @@ Immediately below are some of the researchers currently in the team, their resea
 
 [Romana Limberger](https://www.uibk.ac.at/limno/personnel/limberger/) -- In my research I am investigating ecological and evolutionary responses of communities to environmental change, using experiments with aquatic protists as model systems. I would be happy to hear from people interested in internships, masters studies, phd studies, and postdoctoral research. [Email Romana](mailto:romana.limberger@uibk.ac.at)
 
-[Sofia van Moorsel](www.sofiavanmoorsel.com)  I am a Postdoc interested in rapid evolution and how it influences community stability and functioning. I love doing experiments in the field, in the glasshouse, or in the lab with a number of different organisms, both aquatic and terrestrial. Currently, I'm researching whether adaptation to the community context and environmental conditions can modify a communities' response to novel stressful environments. I would be happy to hear from people interested in internships, research stays, or masters studies! I especially encourage underrepresented minorities and women to reach out. [Email Sofia](mailto:sofia.vanmoorsel@ieu.uzh.ch)
+[Sofia van Moorsel](https://www.sofiavanmoorsel.com)  I am a Postdoc interested in rapid evolution and how it influences community stability and functioning. I love doing experiments in the field, in the glasshouse, or in the lab with a number of different organisms, both aquatic and terrestrial. Currently, I'm researching whether adaptation to the community context and environmental conditions can modify a communities' response to novel stressful environments. I would be happy to hear from people interested in internships, research stays, or masters studies! I especially encourage underrepresented minorities and women to reach out. [Email Sofia](mailto:sofia.vanmoorsel@ieu.uzh.ch)
 
 **Rainer Krug** -- I work in the field of scientific programming using R, data and metadata management and workflows, and developing pipelines to automate the pre-processing and analysis of different types of measured data. If you are interested in these topics and would like to do some work with me, as an internship, or part of master, phd, postdoctoral or any other studies, please contact me and we can see if it is feasible. [Email Rainer](mailto:Rainer.Krug@ieu.uzh.ch)
 

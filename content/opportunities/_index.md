@@ -29,7 +29,7 @@ Immediately below are some of the researchers currently in the team, their resea
 
 **Rainer Krug** -- I work in the field of scientific programming using R, data and metadata management and workflows, and developing pipelines to automate the pre-processing and analysis of different types of measured data. If you are interested in these topics and would like to do some work with me, as an internship, or part of master, phd, postdoctoral or any other studies, please contact me and we can see if it is feasible. [Email Rainer](mailto:Rainer.Krug@ieu.uzh.ch)
 
-
+[Anubhav Gupta](https://sites.google.com/view/anubhavgupta) I combine food web modelling and Bayesian statistics to quantify uncertainty in predictions. I am working with the allometric diet breadth model (ADBM) which predicts food web structure, and investigating how the composition and the quantity of different types of food web data affect the model (ADBM)'s predictions. Broadly, I am interested in mathematical modelling and food webs. If you would like to know more or are interested in doing an internship or a master project feel free to contact me. [Email Anubhav](mailto:anubhav.gupta@ieu.uzh.ch)
 
 
 ## Masters

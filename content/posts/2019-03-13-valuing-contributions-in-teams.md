@@ -12,16 +12,14 @@ image:
 
 Working in teams can be some of the most stimulating, exciting, and important experiences we have. At other times things can get a bit sticky, for example when it comes to attributing rewards (e.g. deciding authorship and authorship order of publications arising). Hence proactive planning and assessing the contributions of members of our teams can be useful. In order to assist with this, a collaboration agreement is a very good idea. Also, teams may find useful this new tool for planning and assessing contributions in teams.
 
-The [web application valuing contributions in teams](https://owenpetchey.shinyapps.io/valuing_contributions_in_teams/) summarises the contributions that a team can report in the associated [googlesheet Valuing contributions in teams](https://docs.google.com/spreadsheets/d/1hfpQblHZeAKTDYqYSvOw2E6eQ__Vp-n_NsOjcosfG5Y). Below is a bit more detail about the problems and solutions being addressed.
+The [web application valuing contributions in teams](https://owenpetchey.shinyapps.io/valuing_contributions_in_teams/) summarises the contributions that a team can report in the associated [googlesheet Valuing contributions in teams](https://docs.google.com/spreadsheets/d/1jw3rfSDpQbT-IfgGsCbYSy7XIe92UiZqCFw8zMZcLRM). Below is a bit more detail about the problems and solutions being addressed.
 
 ### In the googlesheet you:
 
-* Specifiy project details that should be decided in collaboration with project members.
-* Enter the project name and the threshold contribution for authorship (or other reward scheme) in the project information sheet.
+* Enter the project information you so far know; update as required.
 * Enter your team members into the sheet with that name.
-* Decide on your contribution types and weights and enter information into the sheet of that name.
-* Decide planned activities and enter the information into the sheet with that name
-* During the project enter realised contributions in the sheet with that name.
+* Enter the contributions made by each team member on the contributions sheet.
+
 
 ### Problems and solutions in teams
 

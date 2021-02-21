@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TheTrophicLink on TheTrophicLink</title>
-    <link>/</link>
+    <link>https://www.thetrophiclink.org/</link>
     <description>Recent content in TheTrophicLink on TheTrophicLink</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,30 +11,30 @@
     
     <item>
       <title>For your interest</title>
-      <link>/posts/for-your-interest/</link>
+      <link>https://www.thetrophiclink.org/posts/for-your-interest/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/for-your-interest/</guid>
+      <guid>https://www.thetrophiclink.org/posts/for-your-interest/</guid>
       <description>&lt;p&gt;A few things I&amp;rsquo;ve written that may be of interest. I wrote them some time ago and could now critique some of the points and arguments, but believe the main themes remain valid.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/old_posts/TheTrophicLink-About_fairness_in_the_workplace.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Fairness at work (PDF).&lt;/strong&gt;&lt;/a&gt; The outcome of an incomplete delve into the role of fairness in the workplace.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink-About_fairness_in_the_workplace.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Fairness at work (PDF).&lt;/strong&gt;&lt;/a&gt; The outcome of an incomplete delve into the role of fairness in the workplace.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/posts/an-academic-in-business-school-and-being-a-better-dad/&#34;&gt;&lt;strong&gt;Leadership and competition.&lt;/strong&gt;&lt;/a&gt; A perhaps rather preachy piece about what I understand about leadership and competitiveness.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.thetrophiclink.org/posts/an-academic-in-business-school-and-being-a-better-dad/&#34;&gt;&lt;strong&gt;Leadership and competition.&lt;/strong&gt;&lt;/a&gt; A perhaps rather preachy piece about what I understand about leadership and competitiveness.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20When%20should%20I%20start%20giving_.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;When to give (PDF)?&lt;/strong&gt;&lt;/a&gt; Some thoughts on when during our careers we might start &amp;ldquo;giving&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20When%20should%20I%20start%20giving_.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;When to give (PDF)?&lt;/strong&gt;&lt;/a&gt; Some thoughts on when during our careers we might start &amp;ldquo;giving&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/posts/students-are-not-our-customers-they-are-our-products/&#34;&gt;&lt;strong&gt;A University, a Business?&lt;/strong&gt;&lt;/a&gt; Ideas about how we could avoid viewing students as customers even if we did view a university as a business.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.thetrophiclink.org/posts/students-are-not-our-customers-they-are-our-products/&#34;&gt;&lt;strong&gt;A University, a Business?&lt;/strong&gt;&lt;/a&gt; Ideas about how we could avoid viewing students as customers even if we did view a university as a business.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/posts/valuing-contributions-in-teams/&#34;&gt;&lt;strong&gt;Valuing individuals in team.&lt;/strong&gt;&lt;/a&gt; Comments on some challenges when working in teams, and a tool for helping avoid them.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.thetrophiclink.org/posts/valuing-contributions-in-teams/&#34;&gt;&lt;strong&gt;Valuing individuals in team.&lt;/strong&gt;&lt;/a&gt; Comments on some challenges when working in teams, and a tool for helping avoid them.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Demonstrating added-value of integrative research</title>
-      <link>/posts/demonstrating-added-value-of-integrative-research/</link>
+      <link>https://www.thetrophiclink.org/posts/demonstrating-added-value-of-integrative-research/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/demonstrating-added-value-of-integrative-research/</guid>
+      <guid>https://www.thetrophiclink.org/posts/demonstrating-added-value-of-integrative-research/</guid>
       <description>
 
 &lt;p&gt;Do you think that &lt;em&gt;integrative&lt;/em&gt; research has &lt;em&gt;added-value&lt;/em&gt;? Is it more than the sum of its parts? How can we show how integrative is a body of research, and investigate if it has added-value?&lt;/p&gt;
@@ -50,7 +50,7 @@
 
 &lt;figure&gt;
 
-&lt;img src=&#34;/img/coauthor_network.jpeg&#34; /&gt;
+&lt;img src=&#34;https://www.thetrophiclink.org/img/coauthor_network.jpeg&#34; /&gt;
 
 
 
@@ -70,7 +70,7 @@
 
 &lt;figure&gt;
 
-&lt;img src=&#34;/img/corpus_comparison.jpg&#34; /&gt;
+&lt;img src=&#34;https://www.thetrophiclink.org/img/corpus_comparison.jpg&#34; /&gt;
 
 
 
@@ -220,25 +220,22 @@ ggsave(filename=&amp;quot;~/Desktop/corpus_comparison.jpg&amp;quot;, plot=p0, wi
     
     <item>
       <title>A tool for valuing contributions in teams</title>
-      <link>/posts/valuing-contributions-in-teams/</link>
+      <link>https://www.thetrophiclink.org/posts/valuing-contributions-in-teams/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/valuing-contributions-in-teams/</guid>
+      <guid>https://www.thetrophiclink.org/posts/valuing-contributions-in-teams/</guid>
       <description>
 
 &lt;p&gt;Working in teams can be some of the most stimulating, exciting, and important experiences we have. At other times things can get a bit sticky, for example when it comes to attributing rewards (e.g. deciding authorship and authorship order of publications arising). Hence proactive planning and assessing the contributions of members of our teams can be useful. In order to assist with this, a collaboration agreement is a very good idea. Also, teams may find useful this new tool for planning and assessing contributions in teams.&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href=&#34;https://owenpetchey.shinyapps.io/valuing_contributions_in_teams/&#34;&gt;web application valuing contributions in teams&lt;/a&gt; summarises the contributions that a team can report in the associated &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1hfpQblHZeAKTDYqYSvOw2E6eQ__Vp-n_NsOjcosfG5Y&#34;&gt;googlesheet Valuing contributions in teams&lt;/a&gt;. Below is a bit more detail about the problems and solutions being addressed.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://owenpetchey.shinyapps.io/valuing_contributions_in_teams/&#34;&gt;web application valuing contributions in teams&lt;/a&gt; summarises the contributions that a team can report in the associated &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1jw3rfSDpQbT-IfgGsCbYSy7XIe92UiZqCFw8zMZcLRM&#34;&gt;googlesheet Valuing contributions in teams&lt;/a&gt;. Below is a bit more detail about the problems and solutions being addressed.&lt;/p&gt;
 
 &lt;h3 id=&#34;in-the-googlesheet-you&#34;&gt;In the googlesheet you:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Specifiy project details that should be decided in collaboration with project members.&lt;/li&gt;
-&lt;li&gt;Enter the project name and the threshold contribution for authorship (or other reward scheme) in the project information sheet.&lt;/li&gt;
+&lt;li&gt;Enter the project information you so far know; update as required.&lt;/li&gt;
 &lt;li&gt;Enter your team members into the sheet with that name.&lt;/li&gt;
-&lt;li&gt;Decide on your contribution types and weights and enter information into the sheet of that name.&lt;/li&gt;
-&lt;li&gt;Decide planned activities and enter the information into the sheet with that name&lt;/li&gt;
-&lt;li&gt;During the project enter realised contributions in the sheet with that name.&lt;/li&gt;
+&lt;li&gt;Enter the contributions made by each team member on the contributions sheet.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;problems-and-solutions-in-teams&#34;&gt;Problems and solutions in teams&lt;/h3&gt;
@@ -268,10 +265,10 @@ ggsave(filename=&amp;quot;~/Desktop/corpus_comparison.jpg&amp;quot;, plot=p0, wi
     
     <item>
       <title>An academic in business school, and being a better dad</title>
-      <link>/posts/an-academic-in-business-school-and-being-a-better-dad/</link>
+      <link>https://www.thetrophiclink.org/posts/an-academic-in-business-school-and-being-a-better-dad/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/an-academic-in-business-school-and-being-a-better-dad/</guid>
+      <guid>https://www.thetrophiclink.org/posts/an-academic-in-business-school-and-being-a-better-dad/</guid>
       <description>
 
 &lt;p&gt;I’d never had formal management or leadership training, never been schooled in negotiation or influencing, and never run a business. I have now, and consequently have enhanced ability and confidence to lead teams, to navigate them through uncertain times, and, perhaps most importantly, to be a better dad.&lt;/p&gt;
@@ -314,10 +311,10 @@ ggsave(filename=&amp;quot;~/Desktop/corpus_comparison.jpg&amp;quot;, plot=p0, wi
     
     <item>
       <title>Students are not our customers, they are our products</title>
-      <link>/posts/students-are-not-our-customers-they-are-our-products/</link>
+      <link>https://www.thetrophiclink.org/posts/students-are-not-our-customers-they-are-our-products/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/students-are-not-our-customers-they-are-our-products/</guid>
+      <guid>https://www.thetrophiclink.org/posts/students-are-not-our-customers-they-are-our-products/</guid>
       <description>&lt;p&gt;Universities are composed of various groups of individuals, including managers and the academics. The managers govern and lead; the academics do the teaching and research. Managers tend to view the University as a business (the extent of this differs among nations and institutinos), and academics tend to view the University as, well, not a business. (Some of the managers were academics, few of the academics were managers.)&lt;/p&gt;
 
 &lt;p&gt;When viewing a University as a business, the question “who are our customers” arises. It is tempting to view the students as the customer. Though one might consider this accurate from a transactional perspective, it is a disfunctional perspective.
@@ -333,10 +330,10 @@ A customer-provider relationship is not easily compatible with a teach/mentor–
     
     <item>
       <title>Calculating FD</title>
-      <link>/posts/calculating-fd/</link>
+      <link>https://www.thetrophiclink.org/posts/calculating-fd/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/calculating-fd/</guid>
+      <guid>https://www.thetrophiclink.org/posts/calculating-fd/</guid>
       <description>
 
 &lt;p&gt;Here you can get code and instruction on how to calculate FD, the measure of functional diversity that Owen and Kevin Gaston created.&lt;/p&gt;
@@ -376,10 +373,10 @@ A customer-provider relationship is not easily compatible with a teach/mentor–
     
     <item>
       <title>Food web tools</title>
-      <link>/posts/food-web-tools/</link>
+      <link>https://www.thetrophiclink.org/posts/food-web-tools/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/food-web-tools/</guid>
+      <guid>https://www.thetrophiclink.org/posts/food-web-tools/</guid>
       <description>
 
 &lt;p&gt;Here you can get code to model and analyse the random, cascade, and niche food web models.&lt;/p&gt;
@@ -411,52 +408,52 @@ A customer-provider relationship is not easily compatible with a teach/mentor–
     
     <item>
       <title>All the old posts</title>
-      <link>/posts/all-the-old-posts/</link>
+      <link>https://www.thetrophiclink.org/posts/all-the-old-posts/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/all-the-old-posts/</guid>
+      <guid>https://www.thetrophiclink.org/posts/all-the-old-posts/</guid>
       <description>&lt;p&gt;Owen couldn&amp;rsquo;t figure out how to easily and quickly move posts from the old wordpress site to this one. Here they all are as pdfs of the wordpress posts.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink-About_fairness_in_the_workplace.pdf&#34; target=&#34;_blank&#34;&gt;About fairness in the workplace.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20About%20p-values.pdf&#34; target=&#34;_blank&#34;&gt;About p-values.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Back%20garden%20camera%20trap.pdf&#34; target=&#34;_blank&#34;&gt;Back garden camera trap.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Global%20net%20change%20in%20local%20plant%20biodiversity_.pdf&#34; target=&#34;_blank&#34;&gt;Global net change in local plant biodiversity.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Graduation%20day!.pdf&#34; target=&#34;_blank&#34;&gt;Graduation day!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Group%20retreat%202016.pdf&#34; target=&#34;_blank&#34;&gt;Group retreat 2016.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20How%20to%20read%20ANCOVA%20summary%20tables%20in%20R.pdf&#34; target=&#34;_blank&#34;&gt;How to read ANCOVA summary tables in R.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20IEU%20Photo-Exhibition.pdf&#34; target=&#34;_blank&#34;&gt;IEU Photo-Exhibition.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%201.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 1.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%202.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 2.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%203.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 3.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%204.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 4.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%205.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 5.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%206.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 6.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%207.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 7.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%208.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 8.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%209.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 9.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%2010.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 10.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%2011.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 11.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Interesting%20papers%2012.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 12.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20My%20first%20flipped%20classroom%20course.pdf&#34; target=&#34;_blank&#34;&gt;My first flipped classroom course.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Peer%20review%20in%20performance%20appraisals.pdf&#34; target=&#34;_blank&#34;&gt;Peer review in performance appraisals.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Predation%20matrices.pdf&#34; target=&#34;_blank&#34;&gt;Predation matrices.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Random%20resources%201.pdf&#34; target=&#34;_blank&#34;&gt;Random resources 1.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Some%20books.pdf&#34; target=&#34;_blank&#34;&gt;Some books.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Some%20notes%20on%20Principal%20Component%20Analysis.pdf&#34; target=&#34;_blank&#34;&gt;Some notes on Principal Component Analysis.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20Testing%20the%20Metabolic%20Theory%20of%20Ecology_%20a%20simple%20pipeline%20using%20R_.pdf&#34; target=&#34;_blank&#34;&gt;Testing the Metabolic Theory of Ecology_ a simple pipeline using R_.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20The%20art%20of%20advertising%20science-elevator%20pitches.pdf&#34; target=&#34;_blank&#34;&gt;The art of advertising science-elevator pitches.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/old_posts/TheTrophicLink%20_%20When%20should%20I%20start%20giving_.pdf&#34; target=&#34;_blank&#34;&gt;When should I start giving.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink-About_fairness_in_the_workplace.pdf&#34; target=&#34;_blank&#34;&gt;About fairness in the workplace.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20About%20p-values.pdf&#34; target=&#34;_blank&#34;&gt;About p-values.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Back%20garden%20camera%20trap.pdf&#34; target=&#34;_blank&#34;&gt;Back garden camera trap.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Global%20net%20change%20in%20local%20plant%20biodiversity_.pdf&#34; target=&#34;_blank&#34;&gt;Global net change in local plant biodiversity.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Graduation%20day!.pdf&#34; target=&#34;_blank&#34;&gt;Graduation day!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Group%20retreat%202016.pdf&#34; target=&#34;_blank&#34;&gt;Group retreat 2016.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20How%20to%20read%20ANCOVA%20summary%20tables%20in%20R.pdf&#34; target=&#34;_blank&#34;&gt;How to read ANCOVA summary tables in R.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20IEU%20Photo-Exhibition.pdf&#34; target=&#34;_blank&#34;&gt;IEU Photo-Exhibition.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%201.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 1.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%202.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 2.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%203.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 3.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%204.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 4.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%205.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 5.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%206.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 6.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%207.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 7.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%208.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 8.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%209.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 9.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%2010.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 10.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%2011.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 11.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Interesting%20papers%2012.pdf&#34; target=&#34;_blank&#34;&gt;Interesting papers 12.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20My%20first%20flipped%20classroom%20course.pdf&#34; target=&#34;_blank&#34;&gt;My first flipped classroom course.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Peer%20review%20in%20performance%20appraisals.pdf&#34; target=&#34;_blank&#34;&gt;Peer review in performance appraisals.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Predation%20matrices.pdf&#34; target=&#34;_blank&#34;&gt;Predation matrices.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Random%20resources%201.pdf&#34; target=&#34;_blank&#34;&gt;Random resources 1.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Some%20books.pdf&#34; target=&#34;_blank&#34;&gt;Some books.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Some%20notes%20on%20Principal%20Component%20Analysis.pdf&#34; target=&#34;_blank&#34;&gt;Some notes on Principal Component Analysis.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20Testing%20the%20Metabolic%20Theory%20of%20Ecology_%20a%20simple%20pipeline%20using%20R_.pdf&#34; target=&#34;_blank&#34;&gt;Testing the Metabolic Theory of Ecology_ a simple pipeline using R_.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20The%20art%20of%20advertising%20science-elevator%20pitches.pdf&#34; target=&#34;_blank&#34;&gt;The art of advertising science-elevator pitches.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thetrophiclink.org/old_posts/TheTrophicLink%20_%20When%20should%20I%20start%20giving_.pdf&#34; target=&#34;_blank&#34;&gt;When should I start giving.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Making an (even more) effective enquiry</title>
-      <link>/posts/making-an-effective-enquiry/</link>
+      <link>https://www.thetrophiclink.org/posts/making-an-effective-enquiry/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/making-an-effective-enquiry/</guid>
+      <guid>https://www.thetrophiclink.org/posts/making-an-effective-enquiry/</guid>
       <description>&lt;p&gt;Whether you are enquiring about available positions (and perhaps funding) or have a funding scheme that you would like to apply for (to be held in Owen’s group), there are a few things you can do to make it more likely that you get a useful response from Owen, or any other potential supporter.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -467,7 +464,7 @@ A customer-provider relationship is not easily compatible with a teach/mentor–
 &lt;li&gt;Begin enquiries at least one month before any deadlines; more time may be needed in many cases.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Many enquiries Owen receives do to adequately address the third point&amp;hellip; i.e. fit is unclear and/or weak. If you would like advice from Owen about who at UZH, in Zurich, or further afield might be a better fit, please lead with suggestions of such people/groups/laboratories, each with rationale, and Owen would be happy to provide feedback.&lt;/p&gt;
+&lt;p&gt;Many enquiries Owen receives do not adequately address the third point&amp;hellip; i.e. fit is unclear and/or weak. If you would like advice from Owen about who at UZH, in Zurich, or further afield might be a better fit, please lead with suggestions of such people/groups/laboratories, each with rationale, and Owen would be happy to provide feedback.&lt;/p&gt;
 
 &lt;p&gt;Many enquiries also do not adequately address the third or fourth point.&lt;/p&gt;
 </description>
@@ -475,10 +472,10 @@ A customer-provider relationship is not easily compatible with a teach/mentor–
     
     <item>
       <title>Food webs</title>
-      <link>/research/food_webs/</link>
+      <link>https://www.thetrophiclink.org/research/food_webs/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
       
-      <guid>/research/food_webs/</guid>
+      <guid>https://www.thetrophiclink.org/research/food_webs/</guid>
       <description>&lt;p&gt;A brief history of our work on understanding, explaining, and predicting variation in food web strucure.&lt;/p&gt;
 
 &lt;ol&gt;

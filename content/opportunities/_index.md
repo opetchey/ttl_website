@@ -19,15 +19,18 @@ caption = ""
 
 Immediately below are some of the researchers currently in the team, their research interests, and how they may be able to help you. Then come sections on general masters, PhD, and postdoctoral opportunities.
 
-[Frank Pennekamp](https://frank-pennekamp.info)  I am interested in biotic responses to environmental change from the individual to the ecosystem level. I primarily address my questions with experiments, field studies and statistical/mathematical modeling. While most of my work uses microbial model systems (protists), I am really fond of insects and my goal is to make them the focus of a new line of field-based research. I really enjoy to work at the interface of data and theory and would be happy to hear from people interested in internships, masters studies, phd studies, and postdoctoral research.  [Email Frank](mailto:frank.pennekamp@ieu.uzh.ch)
+[Frank Pennekamp](https://frank-pennekamp.info) (Note that Frank leads his own research group.) I am interested in biotic responses to environmental change from the individual to the ecosystem level. I primarily address my questions with experiments, field studies and statistical/mathematical modeling. While most of my work uses microbial model systems (protists), I am really fond of insects and my goal is to make them the focus of a new line of field-based research. I really enjoy to work at the interface of data and theory and would be happy to hear from people interested in internships, masters studies, phd studies, and postdoctoral research.  [Email Frank](mailto:frank.pennekamp@ieu.uzh.ch)
 
-[Marcel Suleiman](https://www.ieu.uzh.ch/en/staff/member/suleiman_marcel.html) --  My postdoctoral research projects focus on bacterial communities of diverse natural ecosystems, mostly aquatic systems, and how changing environmental conditions affect interplay scenarios within such communities. My work is mainly based in the lab, therefore I would be happy to hear from people interested in lab work and motivated in cultivation of all kinds of bacteria (aerobic, microaerophilic, anaerobic, photosynthetic). If you are interested in internships (minimum 3 month), master studies, or phd studies (co-supervising), feel free to contact me. [Email Marcel](mailto:marcel.suleiman@ieu.uzh.ch)
-
-[Romana Limberger](https://www.uibk.ac.at/limno/personnel/limberger/) -- In my research I am investigating ecological and evolutionary responses of communities to environmental change, using experiments with aquatic protists as model systems. I would be happy to hear from people interested in internships, masters studies, phd studies, and postdoctoral research. [Email Romana](mailto:romana.limberger@uibk.ac.at)
+[Romana Limberger](https://www.ieu.uzh.ch/en/staff/member/limberger_romana.html) -- In my research I am investigating ecological and evolutionary responses of communities to environmental change, using experiments with aquatic protists as model systems. I would be happy to hear from people interested in internships, masters studies, phd studies, and postdoctoral research. [Email Romana](mailto:romana.limberger@uzh.ch)
 
 **Rainer Krug** -- I work in the field of scientific programming using R, data and metadata management and workflows, and developing pipelines to automate the pre-processing and analysis of different types of measured data. If you are interested in these topics and would like to do some work with me, as an internship, or part of master, phd, postdoctoral or any other studies, please contact me and we can see if it is feasible. [Email Rainer](mailto:Rainer.Krug@ieu.uzh.ch)
 
-[Anubhav Gupta](https://sites.google.com/view/anubhavgupta) I combine food web modelling and Bayesian statistics to quantify uncertainty in predictions. I am working with the allometric diet breadth model (ADBM) which predicts food web structure, and investigating how the composition and the quantity of different types of food web data affect the model (ADBM)'s predictions. Broadly, I am interested in mathematical modelling and food webs. If you would like to know more or are interested in doing an internship or a master project feel free to contact me. [Email Anubhav](mailto:anubhav.gupta@ieu.uzh.ch)
+[Francesco Polazzo] Information coming soon.
+
+[Shyamolina Ghosh] Information coming soon.
+
+[Martina Jelic] Information coming soon.
+
 
 **Uriah Daugaard** -- In the context of my PhD studies, the focus of my
 research currently lies on ecological forecasting and associated

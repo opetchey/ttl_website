@@ -16,7 +16,7 @@ weight = 7
 #  weight = 1
 +++
 
-{{< figure library="1" src="group_picture2021.jpg" title="" >}}
+{{< figure library="1" src="group_photo_2023.jpeg" title="" >}}
 
 Greetings from the home of the Predictive Ecology Group. Our real home is in the Institute of Evolutionary Biology and Environmental Studies at the University of Zurich. There we tackle questions that span levels of ecological organisation, from the traits and behaviours of individuals, to the functioning of ecosystems. We think about new ways to tackle old problems, and continue to use old ways to tackle new problems. Experiments with microbes, theoretical models, and analyses of large empirical datasets complete our toolbox. The overarching aim is to advance ecology as a predictive / forecasting science.
 

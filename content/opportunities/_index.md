@@ -25,12 +25,12 @@ Immediately below are some of the researchers currently in the team, their resea
 
 **Rainer Krug** -- I work in the field of scientific programming using R, data and metadata management and workflows, and developing pipelines to automate the pre-processing and analysis of different types of measured data. If you are interested in these topics and would like to do some work with me, as an internship, or part of master, phd, postdoctoral or any other studies, please contact me and we can see if it is feasible. [Email Rainer](mailto:Rainer.Krug@ieu.uzh.ch)
 
-[Francesco Polazzo] Information coming soon.
+**Francesco Polazzo** -- I am interested in how species, communities, and ecosystems respond to environmental change. Particularly, I am studying how species diversity and response diversity (the variety of responses shown by species to environmental conditions) determine ecological stability. I am also very much interested in the role of food web structure in determining community stability in face of environmental change. To investigate these processes, I use experimental approaches grounded in ecological theory. I would be happy to hear from people interested in internships, masters studies, phd studies.
+[Email Francesco](francesco.polazzo@uzh.ch) [Francesco on Twitter](https://twitter.com/francescopolaz1)
 
-[Shyamolina Ghosh] Information coming soon.
+**Shyamolina Ghosh** -- My research attempts to apply quantitative tools, and sometimes to introduce new quantitative approaches for ecologists - to develop and test theories in population, community, and macroecology. My goal of the research is to understand the ongoing global changes and how they could affect responses or interactions from the individual, population, a community levels across space and time. I combine data-driven quantitative, theoretical, and empirical approaches to understand the fundamental processes, mechanisms, and consequences of changes in various ecological levels across terrestrial and aquatic realms. I strongly support open data, code, and a reproducible approach in science. I would be happy to collaborate with enthusiastic people from quantitative or experimental backgrounds. [Email Francesco](shyamolina.ghosh@uzh.ch)
 
-[Martina Jelic] Information coming soon.
-
+**Martina Jelic** -- In my PhD research, I use response surfaces to investigate the effects of multiple stressors (such as warming or ocean acidification) on consumer-resource systems and their predictability. I’m interested in understanding when and why multiple stressors have non-additive effects across levels of ecological organization using protist microcosm experiments. I would be happy to hear from people interested in research internships or master studies. [Email Martina](mailto:martina.jelic@ieu.uzh.ch)
 
 **Uriah Daugaard** -- In the context of my PhD studies, the focus of my
 research currently lies on ecological forecasting and associated
@@ -46,7 +46,7 @@ also interested in doing side-projects, such as functional response
 experiments. Get in touch if you're interested in talking about this
 research or in doing an internship or M.Sc. [Email
 Uriah](mailto:uriah.daugaard@ieu.uzh.ch) / [Uriah on
-Twitter](https://twitter.com/daugaarduriah?lang=en)
+Twitter](https://twitter.com/daugaarduriah)
 
 ## Masters
 

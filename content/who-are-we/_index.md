@@ -18,7 +18,11 @@ type = " "  # Do not modify.
 
 [Please find current members on this web page of the University of Zurich](https://www.ieu.uzh.ch/en/research/ecology/extinction/member.html)
 
-## Previous members:
+## Previous members of Frank's group
+
+
+
+## Previous members of Owen's group
 
 Dan Leary (2004-2008)
 PhD: Determinants of ecosystem variability in microbial microcosms.

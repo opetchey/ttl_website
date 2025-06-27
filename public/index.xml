@@ -10,6 +10,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>AI tips and tricks</title>
+      <link>https://www.thetrophiclink.org/posts/2025-06-27-ai-tips-and-tricks/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thetrophiclink.org/posts/2025-06-27-ai-tips-and-tricks/</guid>
+      <description>&lt;p&gt;At our recent group retreat we shared AI tips and tricks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Don’t forget all the cool stuff in Google NotebookLM, including making podcasts to listen to on the train, in the gym, or while doing the laundry.&lt;/li&gt;
+&lt;li&gt;We can make agents with Copilot, perhaps useful for making chatbots for use in teaching.&lt;/li&gt;
+&lt;li&gt;Keep the ethical, social, and environmental aspects in mind, and learn about them.&lt;/li&gt;
+&lt;li&gt;Temporary chat is a useful ChatGPT feature. It provides a clean slate for chats and information is not used for training models.&lt;/li&gt;
+&lt;li&gt;Projects in ChatGPT are a useful.&lt;/li&gt;
+&lt;li&gt;Claude allows linking to a GitHub repository; can be useful when getting AI help with a coding project.&lt;/li&gt;
+&lt;li&gt;ChatGPT helping in searching 200 paper title and abstracts provided by a search in Web of Science, for most relevant papers.&lt;/li&gt;
+&lt;li&gt;Great for getting ideas for the title and or acronym of a paper, proposal, or project.&lt;/li&gt;
+&lt;li&gt;Great website for keeping up with AI tools: &lt;a href=&#34;https://www.oneusefulthing.org/&#34;&gt;https://www.oneusefulthing.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Be on the look out for Agents that do things for us. E.g., plan and book a holiday, reply to emails, schedule meetings.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>For your interest</title>
       <link>https://www.thetrophiclink.org/posts/for-your-interest/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>

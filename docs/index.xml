@@ -18,16 +18,16 @@
       <description>&lt;p&gt;At our recent group retreat we shared AI tips and tricks:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Don’t forget all the cool stuff in Google NotebookLM, including making podcasts to listen to on the train, in the gym, or while doing the laundry.&lt;/li&gt;
-&lt;li&gt;We can make agents with Copilot, perhaps useful for making chatbots for use in teaching.&lt;/li&gt;
-&lt;li&gt;Keep the ethical, social, and environmental aspects in mind, and learn about them.&lt;/li&gt;
-&lt;li&gt;Temporary chat is a useful ChatGPT feature. It provides a clean slate for chats and information is not used for training models.&lt;/li&gt;
-&lt;li&gt;Projects in ChatGPT are a useful.&lt;/li&gt;
-&lt;li&gt;Claude allows linking to a GitHub repository; can be useful when getting AI help with a coding project.&lt;/li&gt;
+&lt;li&gt;Don’t forget all the cool stuff in &lt;a href=&#34;https://notebooklm.google/&#34;&gt;Google NotebookLM&lt;/a&gt;, including making podcasts to listen to on the train, in the gym, or while doing the laundry.&lt;/li&gt;
+&lt;li&gt;We can make agents with &lt;a href=&#34;https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents&#34;&gt;Copilot&lt;/a&gt; (depending on your licence with Microsoft), perhaps useful for making chatbots for use in teaching.&lt;/li&gt;
+&lt;li&gt;Keep the &lt;a href=&#34;https://milvus.io/ai-quick-reference/what-ethical-concerns-exist-with-llms&#34;&gt;ethical&lt;/a&gt;, &lt;a href=&#34;https://cacm.acm.org/news/gauging-societal-impacts-of-large-language-models/&#34;&gt;societal&lt;/a&gt;, and &lt;a href=&#34;https://www.nature.com/articles/s41598-024-76682-6&#34;&gt;environmental&lt;/a&gt; aspects in mind, and learn about them.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.openai.com/en/articles/8914046-temporary-chat-faq&#34;&gt;Temporary chat&lt;/a&gt; is a useful ChatGPT feature. It provides a clean slate for chats and information is not used for training models.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.openai.com/en/articles/10169521-projects-in-chatgpt&#34;&gt;Projects&lt;/a&gt; in ChatGPT are a useful (may require a paid subscription)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.anthropic.com/en/articles/10167454-using-the-github-integration&#34;&gt;Claude allows linking to a GitHub repository&lt;/a&gt;; can be useful when getting AI help with a coding project.&lt;/li&gt;
 &lt;li&gt;ChatGPT helping in searching 200 paper title and abstracts provided by a search in Web of Science, for most relevant papers.&lt;/li&gt;
 &lt;li&gt;Great for getting ideas for the title and or acronym of a paper, proposal, or project.&lt;/li&gt;
 &lt;li&gt;Great website for keeping up with AI tools: &lt;a href=&#34;https://www.oneusefulthing.org/&#34;&gt;https://www.oneusefulthing.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Be on the look out for Agents that do things for us. E.g., plan and book a holiday, reply to emails, schedule meetings.&lt;/li&gt;
+&lt;li&gt;Be on the look out for agents that do things for us. E.g., plan and book a holiday, reply to emails, schedule meetings.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

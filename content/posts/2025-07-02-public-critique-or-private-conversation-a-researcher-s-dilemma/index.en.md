@@ -11,6 +11,7 @@ image:
 draft: false
 ---
 
+<img src="images/public_or_private.png" alt="Public or private?" width="250px"/>
 
 A few months ago, I and some colleagues at the University of Zurich gathered to discuss a recent paper in a leading ecology journal. During the discussion, I realised, or at least believed, that the paper contained an error. And depending on how one interpreted the error and the paper’s aims, it had the potential to mislead readers, especially students or early-career researchers still developing their understanding.
 

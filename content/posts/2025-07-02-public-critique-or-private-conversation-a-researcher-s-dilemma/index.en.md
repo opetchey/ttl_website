@@ -1,7 +1,7 @@
 ---
 title: Public critique or private conversation? How to know what's best for you.
 author: Package Build
-date: '2025-07-02'
+date: '2025-07-16'
 slug: []
 categories: []
 tags: []

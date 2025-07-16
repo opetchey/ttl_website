@@ -8,8 +8,10 @@ tags: []
 image:
   caption: ''
   focal_point: ''
-draft: true
+draft: false
 ---
+
+<img src="images/public_or_private.png" alt="Public or private?" width="250px"/>
 
 A few months ago, I and some colleagues at the University of Zurich gathered to discuss a recent paper in a leading ecology journal. During the discussion, I realised, or at least believed, that the paper contained an error. And depending on how one interpreted the error and the paper’s aims, it had the potential to mislead readers, especially students or early-career researchers still developing their understanding.
 
@@ -27,12 +29,12 @@ It’s not an easy decision, especially without knowing the specifics. But many 
 
 Here’s how I approached it. I tried to be guided by the following principles:
 
-	1.	I might be wrong.
-	2.	I don’t need or want to benefit personally from this situation.
-	3.	I want to help the community and relationships, not harm them.
-	4.	People should have the chance to address issues themselves.
-	5.	We should foster an environment where it’s safe to make and correct mistakes.
-	6.	Researchers should be accountable for what they publish.
+1.	I might be wrong.
+2.	I don’t need or want to benefit personally from this situation.
+3.	I want to help the community and relationships, not harm them.
+4.	People should have the chance to address issues themselves.
+5.	We should foster an environment where it’s safe to make and correct mistakes.
+6.	Researchers should be accountable for what they publish.
 
 Based on these principles, I decided that a public critique,while perhaps justifiable, was not the best first step. It could easily have been perceived as confrontational or dismissive of the author’s work. I wanted to avoid an adversarial exchange that could damage relationships or weaken our academic community.
 
